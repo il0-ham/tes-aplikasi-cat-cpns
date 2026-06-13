@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "category": "TWK",
+        "question": "Membina persatuan dan kesatuan dihubungkan dengan semboyan Bhineka Tunggal Ika mengandung makna bahwa ....",
+        "options": {
+            "A": "Dalam bergaul harus dapat menyesuaikan diri",
+            "B": "Kebudayaan daerah harus terus dilestarikan",
+            "C": "Dalam pergaulan tidak boleh membedakan suku",
+            "D": "Kebudayaan masyarakat tidak tergantikan budaya lain",
+            "E": "Keanekaragaman tak mungkin dipersatukan"
+        },
+        "correct": "C",
+        "explanation": "Semboyan Bhineka Tunggal Ika bermakna meskipun berbeda-beda tetapi pada hakikatnya bangsa Indonesia tetap adalah satu kesatuan, sehingga dalam membina persatuan tidak boleh membedakan suku."
+    },
+    {
+        "id": 2,
+        "category": "TWK",
+        "question": "Pak Suyatno adalah orang yang sombong. Ia selalu menilai orang dari kekayaan dan kedudukannya. Sikap Pak Suyatno bertentangan dengan sila ....",
+        "options": {
+            "A": "Ketuhanan Yang Maha Esa",
+            "B": "Kemanusiaan yang adil dan beradab",
+            "C": "Persatuan Indonesia",
+            "D": "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan perwakilan",
+            "E": "Keadilan bagi seluruh rakyat Indonesia"
+        },
+        "correct": "B",
+        "explanation": "Sifat sombong dan membeda-bedakan manusia berdasarkan derajat kekayaan sangat bertentangan dengan sila ke-2 (Kemanusiaan yang adil dan beradab) yang menjunjung tinggi kesetaraan derajat manusia."
+    },
+    {
+        "id": 3,
+        "category": "TWK",
+        "question": "Pembangunan tidak boleh bersifat pragmatis, hal ini berarti ....",
+        "options": {
+            "A": "Pembangunan tidak hanya mementingkan tindakan nyata dan mengabaikan pertimbangan etis",
+            "B": "Pembangunan tidak boleh secara mutlak melayani ideologi tertentu dan mengabaikan manusia nyata",
+            "C": "Pembangunan tidak boleh mengorbankan manusia nyata melainkan menghormati harkat dan martabat bangsa",
+            "D": "Pembangunan melibatkan masyarakat sebagai tujuan pembangunan keputusan yang menyangkut kebutuhan mereka",
+            "E": "Pembangunan mengutamakan mereka yang paling lemah untuk menghapuskan kemiskinan struktural"
+        },
+        "correct": "A",
+        "explanation": "Pembangunan tidak boleh bersifat pragmatis artinya pembangunan tersebut tidak hanya mementingkan tindakan empiris/nyata saja melainkan harus tetap berlandaskan pada pertimbangan etis (nilai-nilai Pancasila)."
+    },
+    {
+        "id": 4,
+        "category": "TWK",
+        "question": "Pembangunan yang dilaksanakan mengacu pada standar nilai Pancasila adalah maksud dari ....",
+        "options": {
+            "A": "Pancasila sebagai ideologi terbuka",
+            "B": "Pancasila sebagai ideologi tertutup",
+            "C": "Pancasila sebagai nilai instrumental",
+            "D": "Pancasila sebagai dasar negara",
+            "E": "Pancasila sebagai paradigma pembangunan"
+        },
+        "correct": "E",
+        "explanation": "Pancasila sebagai paradigma pembangunan artinya nilai-nilai dasar Pancasila secara normatif menjadi dasar, kerangka acuan, dan tolak ukur segenap aspek pembangunan nasional."
+    },
+    {
+        "id": 5,
+        "category": "TWK",
+        "question": "Berikut ini yang termasuk dimensi realitas sila ke-3 Pancasila, kecuali ....",
+        "options": {
+            "A": "Menghindari sikap chauvinisme dan primordialisme secara tepat",
+            "B": "Memajukan pergaulan demi kemajuan bangsa",
+            "C": "Membina hubungan baik dengan semua unsur bangsa",
+            "D": "Mengembangkan sikap saling tenggang rasa dan tepa selira",
+            "E": "Rela berkorban demi kepentingan bangsa dan negara"
+        },
+        "correct": "D",
+        "explanation": "Mengembangkan sikap saling tenggang rasa dan tepa selira merupakan bentuk pengamalan dari Sila ke-2 (Kemanusiaan yang adil dan beradab), bukan Sila ke-3."
+    },
+    {
+        "id": 6,
+        "category": "TWK",
+        "question": "Mengembangkan sikap bahwa bangsa Indonesia merupakan bagian dari seluruh umat manusia merupakan perwujudan sila ....",
+        "options": {
+            "A": "Pertama",
+            "B": "Kedua",
+            "C": "Ketiga",
+            "D": "Keempat",
+            "E": "Kelima"
+        },
+        "correct": "B",
+        "explanation": "Salah satu butir pengamalan sila ke-2 adalah bangsa Indonesia merasa dirinya sebagai bagian dari seluruh umat manusia, sehingga dikembangkan sikap hormat-menghormati."
+    },
+    {
+        "id": 7,
+        "category": "TWK",
+        "question": "Pancasila sebagai paradigma pembangunan politik harus mampu ....",
+        "options": {
+            "A": "Menjadikan rakyat sebagai subjek politik bukan objek politik",
+            "B": "Menjadi sumber dari segala sumber hukum",
+            "C": "Pengontrol atas kekuasaan yang absolut",
+            "D": "Pedoman hidup berkebangsaan",
+            "E": "Memberi perlindungan hak asasi bagi rakyat"
+        },
+        "correct": "A",
+        "explanation": "Dalam pembangunan politik nasional, Pancasila sebagai paradigma mengarahkan sistem politik agar benar-benar menempatkan rakyat sebagai subjek yang memegang kedaulatan, bukan sekadar objek pemilu."
+    },
+    {
+        "id": 8,
+        "category": "TWK",
+        "question": "Menurut pernyataan dalam pembukaan UUD 1945 perjuangan kemerdekaan merupakan tindakan yang diberkati oleh Allah karena ....",
+        "options": {
+            "A": "Kehidupan kebangsaan yang bebas merupakan keinginan luhur",
+            "B": "Bangsa Indonesia adalah bangsa yang religius",
+            "C": "Kemerdekaan itu sudah lama diperjuangkan",
+            "D": "Banyak pengorbanan yang harus diberikan untuk mendapatkan kemerdekaan",
+            "E": "Kemerdekaan karunia Allah yang tidak perlu diperjuangkan"
+        },
+        "correct": "B",
+        "explanation": "Frasa 'Atas berkat rahmat Allah Yang Maha Kuasa' dalam Pembukaan UUD 1945 membuktikan bahwa bangsa Indonesia menempatkan nilai spiritualitas tinggi dan menegaskan bahwa Indonesia adalah bangsa yang religius."
+    },
+    {
+        "id": 9,
+        "category": "TWK",
+        "question": "Salah satu bentuk pengamalan sila ke-4 di bawah ini adalah ....",
+        "options": {
+            "A": "Kita tidak boleh memaksakan kehendak kita kepada orang lain",
+            "B": "Mengembangkan sikap hormat menghormati dan bekerjasama dengan bangsa lain",
+            "C": "Menjunjung tinggi Hak Asasi Manusia",
+            "D": "Menyadari bahwa kita mempunyai hak dan kewajiban yang sama",
+            "E": "Mengembangkan sikap saling mencintai sesama manusia"
+        },
+        "correct": "A",
+        "explanation": "Sila ke-4 menekankan musyawarah dan kerakyatan. Salah satu butir pengamalannya adalah tidak boleh memaksakan kehendak atau pendapat pribadi kepada orang lain."
+    },
+    {
+        "id": 10,
+        "category": "TWK",
+        "question": "Rumusan dan susunan Pancasila yang benar dan sah tercantum dalam ....",
+        "options": {
+            "A": "Pidato Moh. Yamin tanggal 29 Mei 1945",
+            "B": "Piagam Jakarta",
+            "C": "Pidato Bung Karno tanggal 1 Juni 1945",
+            "D": "Pembukaan UUD 1945",
+            "E": "Mukadimah Konstitusi Sementara RIS"
+        },
+        "correct": "D",
+        "explanation": "Rumusan Pancasila yang sah secara konstitusional hukum tata negara adalah yang tercantum di dalam Pembukaan UUD 1945 alinea ke-4, yang disahkan pada 18 Agustus 1945 oleh PPKI."
+    }
+]
