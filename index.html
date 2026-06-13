@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplikasi CAT CPNS - Database Terpisah</title>
+    <title>Aplikasi Simulasi CAT CPNS Resmi</title>
     <style>
         :root {
             --primary-color: #2c3e50;
-            --accent-color: #16a085;
-            --bg-color: #ecf0f1;
+            --accent-color: #2980b9;
+            --bg-color: #f4f6f7;
             --card-bg: #ffffff;
-            --text-color: #2c3e50;
+            --text-color: #34495e;
             --success-color: #27ae60;
-            --danger-color: #c0392b;
+            --danger-color: #e74c3c;
+            --warning-color: #f39c12;
         }
 
         body {
@@ -20,66 +21,109 @@
             background-color: var(--bg-color);
             color: var(--text-color);
             margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            padding: 0;
             min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
 
-        .container {
-            width: 100%;
-            max-width: 850px;
-            background: var(--card-bg);
-            border-radius: 12px;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-            padding: 30px;
-            box-sizing: border-box;
-        }
-
-        .header {
+        .navbar {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 15px 30px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 3px solid var(--primary-color);
-            padding-bottom: 15px;
-            margin-bottom: 25px;
-        }
-
-        .header h2 {
-            margin: 0;
-            color: var(--primary-color);
-            font-size: 22px;
-        }
-
-        .timer {
-            background: #e8f8f5;
-            color: var(--accent-color);
-            padding: 8px 18px;
-            border-radius: 20px;
             font-weight: bold;
-            font-size: 15px;
-            border: 1px solid var(--accent-color);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
 
-        .quiz-body {
-            margin-bottom: 30px;
+        .main-wrapper {
+            display: flex;
+            flex: 1;
+            padding: 25px;
+            gap: 25px;
+            max-width: 1300px;
+            margin: 0 auto;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .quiz-container {
+            flex: 3;
+            background: var(--card-bg);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            padding: 35px;
+            box-sizing: border-box;
+        }
+
+        .sidebar-container {
+            flex: 1;
+            background: var(--card-bg);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            padding: 25px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            height: fit-content;
+        }
+
+        .welcome-card {
+            max-width: 500px;
+            margin: 100px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .welcome-card input {
+            width: 100%;
+            padding: 12px 15px;
+            margin: 20px 0;
+            border: 2px solid #bdc3c7;
+            border-radius: 6px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .timer-box {
+            background: #fdf2e9;
+            border: 2px solid var(--warning-color);
+            color: #d35400;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
         }
 
         .question-meta {
             display: flex;
             justify-content: space-between;
-            color: #7f8c8d;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e2e8f0;
             font-weight: bold;
-            margin-bottom: 12px;
-            font-size: 14px;
+            color: #7f8c8d;
+        }
+
+        .category-tag {
+            background: #eaf2f8;
+            color: var(--accent-color);
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 13px;
         }
 
         .question-text {
-            font-size: 18px;
+            font-size: 19px;
             line-height: 1.6;
-            margin-bottom: 22px;
-            font-weight: 500;
+            margin-bottom: 25px;
         }
 
         .options-list {
@@ -92,118 +136,141 @@
             display: flex;
             align-items: center;
             padding: 14px 18px;
-            border: 2px solid #bdc3c7;
+            border: 1.5px solid #cbd5e1;
             border-radius: 8px;
             cursor: pointer;
             transition: all 0.2s ease;
-            background-color: #fffff;
         }
 
         .option-item:hover {
-            background-color: #eafaf1;
-            border-color: var(--accent-color);
+            background-color: #f2f4f4;
+            border-color: #95a5a6;
         }
 
         .option-item.selected {
-            background-color: #d5f5e3;
-            border-color: var(--success-color);
+            background-color: #ebf5fb;
+            border-color: var(--accent-color);
             font-weight: bold;
         }
 
-        .option-item input[type="radio"] {
+        .option-item input {
             margin-right: 15px;
             transform: scale(1.3);
-            cursor: pointer;
         }
 
-        .footer-nav {
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+        }
+
+        .nav-num-btn {
+            padding: 10px 0;
+            background: #f4f6f7;
+            border: 1.5px solid #bdc3c7;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.15s;
+        }
+
+        .nav-num-btn:hover {
+            background: #e5e8e8;
+        }
+
+        .nav-num-btn.answered {
+            background: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+        }
+
+        .nav-num-btn.current {
+            border: 2px solid var(--primary-color);
+            box-shadow: 0 0 5px rgba(0,0,0,0.3);
+        }
+
+        .footer-action {
             display: flex;
             justify-content: space-between;
-            border-top: 1px solid #bdc3c7;
-            padding-top: 20px;
+            margin-top: 30px;
         }
 
-        button {
-            padding: 12px 24px;
+        button.btn {
+            padding: 12px 25px;
             border: none;
             border-radius: 6px;
-            font-size: 15px;
+            font-weight: bold;
             cursor: pointer;
-            font-weight: bold;
-            transition: all 0.2s;
+            font-size: 15px;
         }
 
-        .btn-secondary {
-            background-color: #95a5a6;
-            color: white;
-        }
+        .btn-main { background: var(--primary-color); color: white; }
+        .btn-main:hover { background: #34495e; }
+        .btn-accent { background: var(--accent-color); color: white; }
+        .btn-accent:hover { background: #1f618d; }
+        .btn-success { background: var(--success-color); color: white; }
+        .btn-success:hover { background: #1e8449; }
+        .btn-gray { background: #bdc3c7; color: #2c3e50; }
+        .btn-gray:hover { background: #95a5a6; }
 
-        .btn-secondary:hover {
-            background-color: #7f8c8d;
-        }
-
-        .btn-primary {
-            background-color: var(--primary-color);
-            color: white;
-        }
-
-        .btn-primary:hover {
-            background-color: #34495e;
-        }
-
-        .btn-success {
-            background-color: var(--success-color);
-            color: white;
-        }
-
-        .btn-success:hover {
-            background-color: #2196f3;
-        }
-
-        .result-container {
-            text-align: center;
-        }
-
-        .score-circle {
-            width: 140px;
-            height: 140px;
-            border-radius: 50%;
+        .score-box {
             background: #e8f8f5;
-            border: 5px solid var(--success-color);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 42px;
-            font-weight: bold;
-            color: var(--success-color);
-            margin: 0 auto 20px;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 30px;
+            border: 2px solid var(--success-color);
+        }
+
+        .review-card {
+            background: #fff;
+            border-left: 5px solid #bdc3c7;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            border-radius: 0 8px 8px 0;
+        }
+
+        .review-card.correct-ans { border-left-color: var(--success-color); }
+        .review-card.wrong-ans { border-left-color: var(--danger-color); }
+
+        .explanation-box {
+            margin-top: 15px;
+            background: #f8f9f9;
+            padding: 12px 18px;
+            border-radius: 6px;
+            font-size: 14.5px;
+            border-left: 3px solid var(--warning-color);
         }
 
         .stats-table {
             width: 100%;
-            margin: 25px 0;
             border-collapse: collapse;
+            margin-top: 15px;
+            text-align: left;
         }
-
         .stats-table td {
-            padding: 12px;
-            border-bottom: 1px solid #bdc3c7;
-            font-size: 16px;
-        }
-
-        .error-msg {
-            color: var(--danger-color);
-            text-align: center;
-            font-weight: bold;
+            padding: 10px;
+            border-bottom: 1px solid #e5e7eb;
         }
     </style>
 </head>
 <body>
 
-<div class="container" id="app-container">
-    <div style="text-align: center; padding: 40px;">
-        <h3>Memuat Database Soal...</h3>
-        <p>Pastikan file <code>data_soal.json</code> berada di folder yang sama.</p>
+<div id="navbar-view" class="navbar" style="display: none;">
+    <div id="nav-user-title">Peserta CAT: -</div>
+    <div>SISTEM CAT ONLINE CPNS (Maksimal 150 Poin per Bab)</div>
+</div>
+
+<div id="app-root">
+    <div class="welcome-card">
+        <h2 style="color: var(--primary-color); margin-bottom: 5px;">Simulasi CAT CPNS Resmi</h2>
+        <p style="color: #7f8c8d; font-size: 14px;">Waktu Tes Sesuai Ujian Asli: 100 Menit</p>
+        <hr style="border: 0; border-top: 1px solid #e5e7eb; margin: 20px 0;">
+        <label style="font-weight: bold; display: block; text-align: left;">Masukkan Nama Lengkap Anda:</label>
+        <input type="text" id="username-input" placeholder="Contoh: Andi Wijaya" autocomplete="off">
+        <button class="btn btn-success" style="width: 100%; padding: 14px;" onclick="initiateExam()">Mulai Ujian Sekarang</button>
     </div>
 </div>
 
@@ -211,43 +278,37 @@
     let quizData = [];
     let currentQuestionIndex = 0;
     let userAnswers = {};
-    let timeLeft = 600; // 10 Menit waktu pengerjaan
-    let timerInterval;
-    const appContainer = document.getElementById('app-container');
+    let participantName = "";
+    let timeLeft = 6000; 
+    let examInterval;
 
-    // Mengambil data dari file database terpisah (data_soal.json)
-    fetch('data_soal.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Gagal memuat file data_soal.json');
-            }
-            return response.json();
-        })
-        .then(data => {
-            quizData = data;
-            if(quizData.length > 0) {
-                startTimer();
-                renderQuestion();
-            } else {
-                appContainer.innerHTML = '<p class="error-msg">Database soal kosong.</p>';
-            }
-        })
-        .catch(error => {
-            appContainer.innerHTML = `
-                <div class="error-msg">
-                    <p>Error: ${error.message}</p>
-                    <p style="font-weight: normal; font-size: 14px; color: #555;">
-                        Tips: Untuk alasan keamanan browser (CORS policy), file HTML yang membaca JSON lokal harus dijalankan menggunakan server lokal (seperti extension Live Server di VS Code) atau Anda bisa mengunggah keduanya ke hosting/GitHub Pages.
-                    </p>
-                </div>
-            `;
-        });
+    function initiateExam() {
+        const nameInput = document.getElementById('username-input').value.trim();
+        if(!nameInput) {
+            alert('Silakan masukkan nama Anda terlebih dahulu sebelum memulai simulasi.');
+            return;
+        }
+        participantName = nameInput;
+        
+        fetch('data_soal.json')
+            .then(res => res.json())
+            .then(data => {
+                quizData = data;
+                document.getElementById('navbar-view').style.display = 'flex';
+                document.getElementById('nav-user-title').innerText = `Peserta: ${participantName}`;
+                startCountdown();
+                loadExamLayout();
+            })
+            .catch(err => {
+                alert('Gagal memuat database data_soal.json. Pastikan file berada di folder yang sama.');
+            });
+    }
 
-    function startTimer() {
-        timerInterval = setInterval(() => {
-            if (timeLeft <= 0) {
-                clearInterval(timerInterval);
-                submitQuiz();
+    function startCountdown() {
+        examInterval = setInterval(() => {
+            if(timeLeft <= 0) {
+                clearInterval(examInterval);
+                finishExam();
             } else {
                 timeLeft--;
                 updateTimerDisplay();
@@ -256,131 +317,206 @@
     }
 
     function updateTimerDisplay() {
-        const minutes = Math.floor(timeLeft / 60);
-        const seconds = timeLeft % 60;
-        const timerElement = document.getElementById('timer-display');
-        if (timerElement) {
-            timerElement.innerText = `Sisa Waktu: ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        const hr = Math.floor(timeLeft / 3600);
+        const min = Math.floor((timeLeft % 3600) / 60);
+        const sec = timeLeft % 60;
+        const timerText = document.getElementById('timer-clock');
+        if(timerText) {
+            timerText.innerText = `${hr.toString().padStart(2,'0')}:${min.toString().padStart(2,'0')}:${sec.toString().padStart(2,'0')}`;
         }
     }
 
-    function renderQuestion() {
-        const currentQuestion = quizData[currentQuestionIndex];
-        const selectedAnswer = userAnswers[currentQuestionIndex];
+    function loadExamLayout() {
+        const root = document.getElementById('app-root');
+        root.innerHTML = `
+            <div class="main-wrapper">
+                <div class="quiz-container" id="question-panel"></div>
+                <div class="sidebar-container">
+                    <div class="timer-box">
+                        <div style="font-size: 12px; text-transform: uppercase;">Sisa Waktu Ujian</div>
+                        <div id="timer-clock" style="font-size: 24px; margin-top: 5px;">01:40:00</div>
+                    </div>
+                    <h3 style="margin: 10px 0 5px 0; font-size: 16px; color: var(--primary-color);">Navigasi Nomor Soal</h3>
+                    <div class="nav-grid" id="number-grid"></div>
+                    <hr style="border:0; border-top: 1px solid #e5e7eb; margin: 10px 0;">
+                    <button class="btn btn-success" style="width: 100%;" onclick="confirmFinish()">Selesai & Kumpulkan</button>
+                </div>
+            </div>
+        `;
+        renderQuestionPanel();
+        renderNumberGrid();
+        updateTimerDisplay();
+    }
 
-        let optionsHTML = '';
-        for (const [key, value] of Object.entries(currentQuestion.options)) {
-            const isSelected = selectedAnswer === key ? 'selected' : '';
-            const isChecked = selectedAnswer === key ? 'checked' : '';
+    function renderQuestionPanel() {
+        const panel = document.getElementById('question-panel');
+        const item = quizData[currentQuestionIndex];
+        const chosen = userAnswers[currentQuestionIndex];
+
+        let optionsHTML = "";
+        for(const [key, val] of Object.entries(item.options)) {
+            const isSelected = chosen === key ? 'selected' : '';
+            const isChecked = chosen === key ? 'checked' : '';
             optionsHTML += `
-                <div class="option-item ${isSelected}" onclick="selectOption('${key}')">
-                    <input type="radio" name="question-${currentQuestionIndex}" value="${key}" ${isChecked}>
-                    <span>${key}. ${value}</span>
+                <div class="option-item ${isSelected}" onclick="pickAnswer('${key}')">
+                    <input type="radio" name="options-group" value="${key}" ${isChecked}>
+                    <span>${key}. ${val}</span>
                 </div>
             `;
         }
 
-        const isFirstQuestion = currentQuestionIndex === 0;
-        const isLastQuestion = currentQuestionIndex === quizData.length - 1;
-
-        appContainer.innerHTML = `
-            <div class="header">
-                <h2>Sistem CAT CPNS - Simulasi Multi-Kategori</h2>
-                <div class="timer" id="timer-display">Sisa Waktu: --:--</div>
+        panel.innerHTML = `
+            <div class="question-meta">
+                <span class="category-tag">Kategori Modul: ${item.category}</span>
+                <span>Butir Soal ${currentQuestionIndex + 1} / ${quizData.length}</span>
             </div>
-            <div class="quiz-body">
-                <div class="question-meta">
-                    <span>Kategori: ${currentQuestion.category || 'SKD'}</span>
-                    <span>Soal ${currentQuestionIndex + 1} dari ${quizData.length}</span>
-                </div>
-                <div class="question-text">${currentQuestion.question}</div>
-                <div class="options-list">
-                    ${optionsHTML}
-                </div>
-            </div>
-            <div class="footer-nav">
-                <button class="btn-secondary" onclick="prevQuestion()" ${isFirstQuestion ? 'style="visibility: hidden;"' : ''}>Sebelumnya</button>
-                ${isLastQuestion ? 
-                    `<button class="btn-success" onclick="submitQuiz()">Selesai Ujian</button>` : 
-                    `<button class="btn-primary" onclick="nextQuestion()">Selanjutnya</button>`
-                }
+            <div class="question-text">${item.question}</div>
+            <div class="options-list">${optionsHTML}</div>
+            <div class="footer-action">
+                <button class="btn btn-gray" onclick="jumpToQuestion(${currentQuestionIndex - 1})" ${currentQuestionIndex === 0 ? 'disabled style="opacity:0.5;"' : ''}>Sebelumnya</button>
+                <button class="btn btn-accent" onclick="jumpToQuestion(${currentQuestionIndex + 1})" ${currentQuestionIndex === quizData.length - 1 ? 'disabled style="opacity:0.5;"' : ''}>Selanjutnya</button>
             </div>
         `;
-        updateTimerDisplay();
     }
 
-    function selectOption(key) {
-        userAnswers[currentQuestionIndex] = key;
-        renderQuestion();
+    function renderNumberGrid() {
+        const grid = document.getElementById('number-grid');
+        grid.innerHTML = "";
+        quizData.forEach((item, idx) => {
+            let statusClass = "";
+            if(userAnswers[idx]) statusClass += " answered";
+            if(idx === currentQuestionIndex) statusClass += " current";
+
+            grid.innerHTML += `
+                <div class="nav-num-btn ${statusClass}" onclick="jumpToQuestion(${idx})">${idx + 1}</div>
+            `;
+        });
     }
 
-    function nextQuestion() {
-        if (currentQuestionIndex < quizData.length - 1) {
-            currentQuestionIndex++;
-            renderQuestion();
+    function pickAnswer(letter) {
+        userAnswers[currentQuestionIndex] = letter;
+        renderQuestionPanel();
+        renderNumberGrid();
+    }
+
+    function jumpToQuestion(idx) {
+        if(idx >= 0 && idx < quizData.length) {
+            currentQuestionIndex = idx;
+            renderQuestionPanel();
+            renderNumberGrid();
         }
     }
 
-    function prevQuestion() {
-        if (currentQuestionIndex > 0) {
-            currentQuestionIndex--;
-            renderQuestion();
+    function confirmFinish() {
+        const totalAnswered = Object.keys(userAnswers).length;
+        if(totalAnswered < quizData.length) {
+            if(!confirm(`Anda baru menjawab ${totalAnswered} dari ${quizData.length} soal. Yakin ingin mengakhiri ujian?`)) return;
+        } else {
+            if(!confirm('Apakah Anda yakin seluruh jawaban sudah benar dan ingin mengumpulkan ujian?')) return;
         }
+        finishExam();
     }
 
-    function submitQuiz() {
-        clearInterval(timerInterval);
-        let correctCount = 0;
-        let wrongCount = 0;
-        let uncompletedCount = 0;
+    function finishExam() {
+        clearInterval(examInterval);
+        const root = document.getElementById('app-root');
+        
+        let twkCorrect = 0, tiuCorrect = 0, tkpScore = 0;
+        let totalTwk = 0, totalTiu = 0, totalTkp = 0;
 
-        quizData.forEach((question, index) => {
-            const answer = userAnswers[index];
-            if (!answer) {
-                uncompletedCount++;
-            } else if (answer === question.correct) {
-                correctCount++;
-            } else {
-                wrongCount++;
+        quizData.forEach((item, idx) => {
+            const ans = userAnswers[idx];
+            if(item.category === "TWK") {
+                totalTwk++;
+                if(ans === item.correct) twkCorrect++;
+            } else if(item.category === "TIU") {
+                totalTiu++;
+                if(ans === item.correct) tiuCorrect++;
+            } else if(item.category === "TKP") {
+                totalTkp++;
+                if(ans === item.correct) tkpScore += 5;
+                else if(ans) tkpScore += 2;
             }
         });
 
-        const finalScore = correctCount * 5;
+        const twkFinalScore = twkCorrect * 5;
+        const tiuFinalScore = tiuCorrect * 5;
+        const cumulativeScore = twkFinalScore + tiuFinalScore + tkpScore;
 
-        appContainer.innerHTML = `
-            <div class="result-container">
-                <h2>Hasil Evaluasi Ujian CAT</h2>
-                <div class="score-circle">${finalScore}</div>
-                <p>Nilai Akhir Anda (Skor Maksimum: ${quizData.length * 5})</p>
+        let reviewHTML = "";
+        quizData.forEach((item, idx) => {
+            const ans = userAnswers[idx] || "Tidak Dijawab";
+            const isCorrect = ans === item.correct;
+            let statusText = isCorrect ? "BENAR" : "SALAH";
+            let cardClass = isCorrect ? "correct-ans" : "wrong-ans";
+
+            if(item.category === "TKP") {
+                statusText = ans === "Tidak Dijawab" ? "KOSONG" : "TERJAWAB (Poin Maksimum jika memilih " + item.correct + ")";
+                cardClass = ans === item.correct ? "correct-ans" : "wrong-ans";
+            }
+
+            let optionsDetail = "";
+            for(const [k, v] of Object.entries(item.options)) {
+                let textWeight = k === item.correct ? 'style="font-weight:bold; color:var(--success-color);"' : '';
+                optionsDetail += `<div ${textWeight}>${k}. ${v}</div>`;
+            }
+
+            reviewHTML += `
+                <div class="review-card ${cardClass}">
+                    <h4 style="margin: 0 0 10px 0; color: var(--primary-color);">Soal Nomor ${idx + 1} [${item.category}] - Status: ${statusText}</h4>
+                    <p style="font-size: 15px; margin-bottom: 10px;">${item.question}</p>
+                    <div style="font-size: 14px; padding-left: 10px; margin-bottom: 10px; border-left: 2px solid #ddd;">
+                        ${optionsDetail}
+                    </div>
+                    <p style="font-size: 14px; margin: 5px 0;"><strong>Jawaban Anda:</strong> ${ans}</p>
+                    <p style="font-size: 14px; margin: 5px 0; color: var(--success-color);"><strong>Kunci Jawaban Resmi:</strong> ${item.correct}</p>
+                    <div class="explanation-box">
+                        <strong>Pembahasan Analisis:</strong><br>${item.explanation || 'Berdasarkan materi resmi kisi-kisi BKN.'}
+                    </div>
+                </div>
+            `;
+        });
+
+        root.innerHTML = `
+            <div style="max-width: 1000px; margin: 40px auto; padding: 20px; box-sizing: border-box;">
+                <div class="score-box">
+                    <h2 style="margin: 0 0 10px 0; color: var(--success-color);">Ujian Selesai! Dashboard Hasil ${participantName}</h2>
+                    <div style="font-size: 48px; font-weight: bold; color: var(--primary-color); margin: 15px 0;">${cumulativeScore}</div>
+                    <p style="font-size: 16px; font-weight: bold; color: #7f8c8d;">SKOR KUMULATIF SKD CAT</p>
+                    
+                    <table class="stats-table">
+                        <tr style="background:#f4f6f7; font-weight:bold;">
+                            <td style="padding:10px;">Kategori Tes</td>
+                            <td style="padding:10px; text-align:center;">Jumlah Soal</td>
+                            <td style="padding:10px; text-align:right;">Rincian Nilai Per Bab</td>
+                        </tr>
+                        <tr>
+                            <td>Tes Wawasan Kebangsaan (TWK)</td>
+                            <td style="text-align:center;">${totalTwk} Soal</td>
+                            <td style="text-align:right; font-weight:bold; color:var(--accent-color);">${twkFinalScore} (Benar: ${twkCorrect})</td>
+                        </tr>
+                        <tr>
+                            <td>Tes Inteligensia Umum (TIU)</td>
+                            <td style="text-align:center;">${totalTiu} Soal</td>
+                            <td style="text-align:right; font-weight:bold; color:var(--accent-color);">${tiuFinalScore} (Benar: ${tiuCorrect})</td>
+                        </tr>
+                        <tr>
+                            <td>Tes Karakteristik Pribadi (TKP)</td>
+                            <td style="text-align:center;">${totalTkp} Soal</td>
+                            <td style="text-align:right; font-weight:bold; color:var(--accent-color);">${tkpScore} Poin</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3 style="color: var(--primary-color); border-bottom: 2px solid var(--primary-color); padding-bottom: 8px; margin-bottom: 20px;">
+                    Lembar Analisis & Pembahasan Soal Singkat
+                </h3>
+                <div>${reviewHTML}</div>
                 
-                <table class="stats-table">
-                    <tr>
-                        <td><strong>Jawaban Benar</strong></td>
-                        <td style="color: var(--success-color); text-align: right;"><strong>${correctCount} Soal</strong></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Jawaban Salah</strong></td>
-                        <td style="color: var(--danger-color); text-align: right;"><strong>${wrongCount} Soal</strong></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Tidak Dijawab</strong></td>
-                        <td style="color: #7f8c8d; text-align: right;"><strong>${uncompletedCount} Soal</strong></td>
-                    </tr>
-                </table>
-
-                <button class="btn-primary" onclick="restartQuiz()" style="margin-top: 15px; width: 100%;">Ulangi Ujian</button>
+                <button class="btn btn-main" style="width:100%; padding:15px; margin-top:20px;" onclick="window.location.reload()">Kembali ke Halaman Utama</button>
             </div>
         `;
     }
-
-    function restartQuiz() {
-        currentQuestionIndex = 0;
-        userAnswers = {};
-        timeLeft = 600;
-        startTimer();
-        renderQuestion();
-    }
 </script>
-
 </body>
 </html>
