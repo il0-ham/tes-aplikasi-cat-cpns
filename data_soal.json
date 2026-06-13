@@ -1,142 +1,1542 @@
 [
-    {
-        "id": 1,
-        "category": "TWK",
-        "question": "Membina persatuan dan kesatuan dihubungkan dengan semboyan Bhineka Tunggal Ika mengandung makna bahwa ....",
-        "options": {
-            "A": "Dalam bergaul harus dapat menyesuaikan diri",
-            "B": "Kebudayaan daerah harus terus dilestarikan",
-            "C": "Dalam pergaulan tidak boleh membedakan suku",
-            "D": "Kebudayaan masyarakat tidak tergantikan budaya lain",
-            "E": "Keanekaragaman tak mungkin dipersatukan"
-        },
-        "correct": "C",
-        "explanation": "Semboyan Bhineka Tunggal Ika bermakna meskipun berbeda-beda tetapi pada hakikatnya bangsa Indonesia tetap adalah satu kesatuan, sehingga dalam membina persatuan tidak boleh membedakan suku."
+  {
+    "id": 1,
+    "category": "TWK",
+    "question": "Membina persatuan dan kesatuan dihubungkan dengan semboyan Bhineka Tunggal Ika mengandung makna bahwa ....",
+    "options": {
+      "A": "Dalam bergaul harus dapat menyesuaikan diri",
+      "B": "Kebudayaan daerah harus terus dilestarikan",
+      "C": "Dalam pergaulan tidak boleh membedakan suku",
+      "D": "Kebudayaan masyarakat tidak tergantikan budaya lain",
+      "E": "Keanekaragaman tak mungkin dipersatukan"
     },
-    {
-        "id": 2,
-        "category": "TWK",
-        "question": "Pak Suyatno adalah orang yang sombong. Ia selalu menilai orang dari kekayaan dan kedudukannya. Sikap Pak Suyatno bertentangan dengan sila ....",
-        "options": {
-            "A": "Ketuhanan Yang Maha Esa",
-            "B": "Kemanusiaan yang adil dan beradab",
-            "C": "Persatuan Indonesia",
-            "D": "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan perwakilan",
-            "E": "Keadilan bagi seluruh rakyat Indonesia"
-        },
-        "correct": "B",
-        "explanation": "Sifat sombong dan membeda-bedakan manusia berdasarkan derajat kekayaan sangat bertentangan dengan sila ke-2 (Kemanusiaan yang adil dan beradab) yang menjunjung tinggi kesetaraan derajat manusia."
+    "correct": "C",
+    "explanation": "Semboyan Bhineka Tunggal Ika menekankan persatuan di tengah perbedaan, sehingga tidak boleh membedakan suku, ras, atau agama."
+  },
+  {
+    "id": 2,
+    "category": "TWK",
+    "question": "Pak Suyatno adalah orang yang sombong. Ia selalu menilai orang dari kekayaan dan kedudukannya. Sikap Pak Suyatno bertentangan dengan sila ....",
+    "options": {
+      "A": "Ketuhanan Yang Maha Esa",
+      "B": "Kemanusiaan yang adil dan beradab",
+      "C": "Persatuan Indonesia",
+      "D": "Kerakyatan yang dipimpin oleh hikmat kebijaksanaan...",
+      "E": "Keadilan bagi seluruh rakyat Indonesia"
     },
-    {
-        "id": 3,
-        "category": "TWK",
-        "question": "Pembangunan tidak boleh bersifat pragmatis, hal ini berarti ....",
-        "options": {
-            "A": "Pembangunan tidak hanya mementingkan tindakan nyata dan mengabaikan pertimbangan etis",
-            "B": "Pembangunan tidak boleh secara mutlak melayani ideologi tertentu dan mengabaikan manusia nyata",
-            "C": "Pembangunan tidak boleh mengorbankan manusia nyata melainkan menghormati harkat dan martabat bangsa",
-            "D": "Pembangunan melibatkan masyarakat sebagai tujuan pembangunan keputusan yang menyangkut kebutuhan mereka",
-            "E": "Pembangunan mengutamakan mereka yang paling lemah untuk menghapuskan kemiskinan struktural"
-        },
-        "correct": "A",
-        "explanation": "Pembangunan tidak boleh bersifat pragmatis artinya pembangunan tersebut tidak hanya mementingkan tindakan empiris/nyata saja melainkan harus tetap berlandaskan pada pertimbangan etis (nilai-nilai Pancasila)."
+    "correct": "B",
+    "explanation": "Membeda-bedakan manusia berdasarkan status sosial bertentangan dengan nilai kemanusiaan yang adil dan beradab (Sila ke-2)."
+  },
+  {
+    "id": 3,
+    "category": "TWK",
+    "question": "Pembangunan tidak boleh bersifat pragmatis, hal ini berarti ....",
+    "options": {
+      "A": "Pembangunan tidak hanya mementingkan tindakan nyata dan mengabaikan pertimbangan etis",
+      "B": "Pembangunan tidak boleh secara mutlak melayani ideologi tertentu",
+      "C": "Pembangunan tidak boleh mengorbankan manusia nyata",
+      "D": "Pembangunan melibatkan masyarakat sebagai tujuan pembangunan",
+      "E": "Pembangunan mengutamakan mereka yang paling lemah"
     },
-    {
-        "id": 4,
-        "category": "TWK",
-        "question": "Pembangunan yang dilaksanakan mengacu pada standar nilai Pancasila adalah maksud dari ....",
-        "options": {
-            "A": "Pancasila sebagai ideologi terbuka",
-            "B": "Pancasila sebagai ideologi tertutup",
-            "C": "Pancasila sebagai nilai instrumental",
-            "D": "Pancasila sebagai dasar negara",
-            "E": "Pancasila sebagai paradigma pembangunan"
-        },
-        "correct": "E",
-        "explanation": "Pancasila sebagai paradigma pembangunan artinya nilai-nilai dasar Pancasila secara normatif menjadi dasar, kerangka acuan, dan tolak ukur segenap aspek pembangunan nasional."
+    "correct": "A",
+    "explanation": "Tidak pragmatis artinya tidak hanya mencari hasil instan/nyata tanpa memedulikan moral dasar Pancasila."
+  },
+  {
+    "id": 4,
+    "category": "TWK",
+    "question": "Pembangunan yang dilaksanakan mengacu pada standar nilai Pancasila adalah maksud dari ....",
+    "options": {
+      "A": "Pancasila sebagai ideologi terbuka",
+      "B": "Pancasila sebagai ideologi tertutup",
+      "C": "Pancasila sebagai nilai instrumental",
+      "D": "Pancasila sebagai dasar negara",
+      "E": "Pancasila sebagai paradigma pembangunan"
     },
-    {
-        "id": 5,
-        "category": "TWK",
-        "question": "Berikut ini yang termasuk dimensi realitas sila ke-3 Pancasila, kecuali ....",
-        "options": {
-            "A": "Menghindari sikap chauvinisme dan primordialisme secara tepat",
-            "B": "Memajukan pergaulan demi kemajuan bangsa",
-            "C": "Membina hubungan baik dengan semua unsur bangsa",
-            "D": "Mengembangkan sikap saling tenggang rasa dan tepa selira",
-            "E": "Rela berkorban demi kepentingan bangsa dan negara"
-        },
-        "correct": "D",
-        "explanation": "Mengembangkan sikap saling tenggang rasa dan tepa selira merupakan bentuk pengamalan dari Sila ke-2 (Kemanusiaan yang adil dan beradab), bukan Sila ke-3."
+    "correct": "E",
+    "explanation": "Pancasila sebagai paradigma pembangunan berarti Pancasila menjadi kerangka dasar acuan pembangunan."
+  },
+  {
+    "id": 5,
+    "category": "TWK",
+    "question": "Berikut ini yang termasuk dimensi realitas sila ke-3 Pancasila, kecuali ....",
+    "options": {
+      "A": "Menghindari sikap chauvinisme dan primordialisme",
+      "B": "Memajukan pergaulan demi kemajuan bangsa",
+      "C": "Membina hubungan baik dengan semua unsur bangsa",
+      "D": "Mengembangkan sikap saling tenggang rasa dan tepa selira",
+      "E": "Rela berkorban demi kepentingan bangsa"
     },
-    {
-        "id": 6,
-        "category": "TWK",
-        "question": "Mengembangkan sikap bahwa bangsa Indonesia merupakan bagian dari seluruh umat manusia merupakan perwujudan sila ....",
-        "options": {
-            "A": "Pertama",
-            "B": "Kedua",
-            "C": "Ketiga",
-            "D": "Keempat",
-            "E": "Kelima"
-        },
-        "correct": "B",
-        "explanation": "Salah satu butir pengamalan sila ke-2 adalah bangsa Indonesia merasa dirinya sebagai bagian dari seluruh umat manusia, sehingga dikembangkan sikap hormat-menghormati."
+    "correct": "D",
+    "explanation": "Tenggang rasa dan tepa selira merupakan implementasi nilai kemanusiaan (Sila ke-2)."
+  },
+  {
+    "id": 6,
+    "category": "TWK",
+    "question": "Mengembangkan sikap bahwa bangsa Indonesia merupakan bagian dari seluruh umat manusia merupakan perwujudan sila ....",
+    "options": {
+      "A": "Pertama",
+      "B": "Kedua",
+      "C": "Ketiga",
+      "D": "Keempat",
+      "E": "Kelima"
     },
-    {
-        "id": 7,
-        "category": "TWK",
-        "question": "Pancasila sebagai paradigma pembangunan politik harus mampu ....",
-        "options": {
-            "A": "Menjadikan rakyat sebagai subjek politik bukan objek politik",
-            "B": "Menjadi sumber dari segala sumber hukum",
-            "C": "Pengontrol atas kekuasaan yang absolut",
-            "D": "Pedoman hidup berkebangsaan",
-            "E": "Memberi perlindungan hak asasi bagi rakyat"
+    "correct": "B",
+    "explanation": "Sila ke-2 mengajarkan cinta sesama manusia serta menempatkan bangsa Indonesia sebagai bagian dari masyarakat dunia."
+  },
+  {
+    "id": 7,
+    "category": "TWK",
+    "question": "Pancasila sebagai paradigma pembangunan politik harus mampu ....",
+    "options": {
+      "A": "Menjadikan rakyat sebagai subjek politik bukan objek politik",
+      "B": "Menjadi sumber dari segala sumber hukum",
+      "C": "Pengontrol atas kekuasaan yang absolut",
+      "D": "Pedoman hidup berkebangsaan",
+      "E": "Memberi perlindungan hak asasi bagi rakyat"
         },
-        "correct": "A",
-        "explanation": "Dalam pembangunan politik nasional, Pancasila sebagai paradigma mengarahkan sistem politik agar benar-benar menempatkan rakyat sebagai subjek yang memegang kedaulatan, bukan sekadar objek pemilu."
+    "correct": "A",
+    "explanation": "Pembangunan politik berdasarkan Pancasila harus menempatkan kekuasaan tertinggi di tangan rakyat (rakyat sebagai subjek)."
+  },
+  {
+    "id": 8,
+    "category": "TWK",
+    "question": "Menurut pernyataan dalam pembukaan UUD 1945 perjuangan kemerdekaan merupakan tindakan yang diberkati oleh Allah karena ....",
+    "options": {
+      "A": "Kehidupan kebangsaan yang bebas merupakan keinginan luhur",
+      "B": "Bangsa Indonesia adalah bangsa yang religius",
+      "C": "Kemerdekaan itu sudah lama diperjuangkan",
+      "D": "Banyak pengorbanan yang harus diberikan",
+      "E": "Kemerdekaan karunia Allah yang tidak perlu diperjuangkan"
     },
-    {
-        "id": 8,
-        "category": "TWK",
-        "question": "Menurut pernyataan dalam pembukaan UUD 1945 perjuangan kemerdekaan merupakan tindakan yang diberkati oleh Allah karena ....",
-        "options": {
-            "A": "Kehidupan kebangsaan yang bebas merupakan keinginan luhur",
-            "B": "Bangsa Indonesia adalah bangsa yang religius",
-            "C": "Kemerdekaan itu sudah lama diperjuangkan",
-            "D": "Banyak pengorbanan yang harus diberikan untuk mendapatkan kemerdekaan",
-            "E": "Kemerdekaan karunia Allah yang tidak perlu diperjuangkan"
-        },
-        "correct": "B",
-        "explanation": "Frasa 'Atas berkat rahmat Allah Yang Maha Kuasa' dalam Pembukaan UUD 1945 membuktikan bahwa bangsa Indonesia menempatkan nilai spiritualitas tinggi dan menegaskan bahwa Indonesia adalah bangsa yang religius."
+    "correct": "B",
+    "explanation": "Frasa 'Atas berkat rahmat Allah Yang Maha Kuasa' menunjukkan jati diri bangsa Indonesia yang religius."
+  },
+  {
+    "id": 9,
+    "category": "TWK",
+    "question": "Salah satu bentuk pengamalan sila ke-4 di bawah ini adalah ....",
+    "options": {
+      "A": "Kita tidak boleh memaksakan kehendak kita kepada orang lain",
+      "B": "Mengembangkan sikap hormat menghormati",
+      "C": "Menjunjung tinggi Hak Asasi Manusia",
+      "D": "Menyadari bahwa kita mempunyai hak dan kewajiban yang sama",
+      "E": "Mengembangkan sikap saling mencintai sesama"
     },
-    {
-        "id": 9,
-        "category": "TWK",
-        "question": "Salah satu bentuk pengamalan sila ke-4 di bawah ini adalah ....",
-        "options": {
-            "A": "Kita tidak boleh memaksakan kehendak kita kepada orang lain",
-            "B": "Mengembangkan sikap hormat menghormati dan bekerjasama dengan bangsa lain",
-            "C": "Menjunjung tinggi Hak Asasi Manusia",
-            "D": "Menyadari bahwa kita mempunyai hak dan kewajiban yang sama",
-            "E": "Mengembangkan sikap saling mencintai sesama manusia"
-        },
-        "correct": "A",
-        "explanation": "Sila ke-4 menekankan musyawarah dan kerakyatan. Salah satu butir pengamalannya adalah tidak boleh memaksakan kehendak atau pendapat pribadi kepada orang lain."
+    "correct": "A",
+    "explanation": "Inti sila ke-4 adalah musyawarah mufakat, yang berarti menghargai pendapat dan tidak memaksakan kehendak."
+  },
+  {
+    "id": 10,
+    "category": "TWK",
+    "question": "Rumusan dan susunan Pancasila yang benar dan sah tercantum dalam ....",
+    "options": {
+      "A": "Pidato Moh. Yamin tanggal 29 Mei 1945",
+      "B": "Piagam Jakarta",
+      "C": "Pidato Bung Karno tanggal 1 Juni 1945",
+      "D": "Pembukaan UUD 1945",
+      "E": "Mukadimah Konstitusi Sementara RIS"
     },
+    "correct": "D",
+    "explanation": "Rumusan Pancasila yang resmi digunakan secara hukum adalah yang tertuang pada Alinea IV Pembukaan UUD 1945."
+  },
+  {
+    "id": 11,
+    "category": "TWK",
+    "question": "Nasionalisme yang menekankan keanggotaan seseorang berdasarkan keturunan, ras, atau etnis tertentu dinamakan nasionalisme jenis ....",
+    "options": {
+      "A": "Nasionalisme Kewarganegaraan",
+      "B": "Nasionalisme Etnis atau Budaya",
+      "C": "Nasionalisme Romantik",
+      "D": "Nasionalisme Kenegaraan",
+      "E": "Nasionalisme Integral"
+    },
+    "correct": "B",
+    "explanation": "Nasionalisme etnis mendasarkan keterikatan bangsa pada kesamaan garis keturunan, suku, dan adat kebudayaan asal."
+  },
+  {
+    "id": 12,
+    "category": "TWK",
+    "question": "Sikap patriotisme di lingkungan sekolah dapat diwujudkan melalui tindakan nyata berupa ....",
+    "options": {
+      "A": "Mengikuti upacara bendera dengan khidmat dan tertib",
+      "B": "Membantu teman saat kesulitan menjawab soal ujian",
+      "C": "Menjaga kebersihan pekarangan rumah masing-masing",
+      "D": "Selalu membeli barang elektronik impor yang mahal",
+      "E": "Mengkritik semua kebijakan pengurus OSIS tanpa solusi"
+    },
+    "correct": "A",
+    "explanation": "Mengikuti upacara bendera dengan khidmat adalah implementasi langsung jiwa patriotisme dan penghormatan simbol negara di sekolah."
+  },
+  {
+    "id": 13,
+    "category": "TWK",
+    "question": "Pokok pikiran pertama Pembukaan UUD 1945 menyatakan bahwa Negara melindungi segenap bangsa Indonesia. Hal ini merupakan pancaran dari sila ke ....",
+    "options": {
+      "A": "Satu",
+      "B": "Dua",
+      "C": "Tiga",
+      "D": "Empat",
+      "E": "Lima"
+    },
+    "correct": "C",
+    "explanation": "Pokok pikiran pertama adalah persatuan, yang menjaga dan melindungi segenap bangsa, selaras dengan Sila ke-3."
+  },
+  {
+    "id": 14,
+    "category": "TWK",
+    "question": "Badan pembantu presiden yang dibentuk pada masa awal kemerdekaan untuk menjalankan fungsi legislatif sebelum DPR terbentuk adalah ....",
+    "options": {
+      "A": "BPUPKI",
+      "B": "PPKI",
+      "C": "KNIP",
+      "D": "DPA",
+      "E": "BKR"
+    },
+    "correct": "C",
+    "explanation": "KNIP (Komite Nasional Indonesia Pusat) diserahi kekuasaan legislatif sebelum terbentuknya MPR/DPR resmi."
+  },
+  {
+    "id": 15,
+    "category": "TWK",
+    "question": "Perubahan atau amandemen terhadap Undang-Undang Dasar 1945 telah dilakukan sebanyak ....",
+    "options": {
+      "A": "1 Kali",
+      "B": "2 Kali",
+      "C": "3 Kali",
+      "D": "4 Kali",
+      "E": "5 Kali"
+    },
+    "correct": "D",
+    "explanation": "UUD 1945 telah mengalami 4 kali amandemen berturut-turut pada tahun 1999, 2000, 2001, dan 2002."
+  },
+  {
+    "id": 16,
+    "category": "TWK",
+    "question": "Menurut UUD 1945, lembaga negara yang berwenang memutus sengketa kewenangan lembaga negara yang kewenangannya diberikan oleh UUD adalah ....",
+    "options": {
+      "A": "Mahkamah Agung",
+      "B": "Mahkamah Konstitusi",
+      "C": "Komisi Yudisial",
+      "D": "Dewan Perwakilan Rakyat",
+      "E": "Majelis Permusyawaratan Rakyat"
+    },
+    "correct": "B",
+    "explanation": "Salah satu kewenangan mutlak Mahkamah Konstitusi (MK) adalah memutus sengketa kewenangan antarlembaga negara."
+  },
+  {
+    "id": 17,
+    "category": "TWK",
+    "question": "Bentuk tata pemerintahan yang bersih, transparan, akuntabel, dan bebas dari praktik KKN dinamakan ....",
+    "options": {
+      "A": "Good Governance",
+      "B": "Totalitarianisme",
+      "C": "Birokrasi Sentralistik",
+      "D": "Otonomi Khusus",
+      "E": "Sistem Meritokrasi"
+    },
+    "correct": "A",
+    "explanation": "Good governance adalah tata kelola pemerintahan yang baik, bersih, bertanggung jawab, dan berintegritas tinggi."
+  },
+  {
+    "id": 18,
+    "category": "TWK",
+    "question": "Perwujudan sistem bela negara bagi seorang warga negara biasa yang tidak bergabung dalam militer reguler dapat berupa ....",
+    "options": {
+      "A": "Bekerja profesional dan menjaga nama baik bangsa di bidang masing-masing",
+      "B": "Membeli senjata api secara ilegal untuk berjaga-jaga",
+      "C": "Mengambil alih tugas kepolisian dalam menindak kriminalitas",
+      "D": "Menolak membayar pajak sebagai protes kebijakan",
+      "E": "Melakukan demonstrasi anarkis di area objek vital nasional"
+    },
+    "correct": "A",
+    "explanation": "Bela negara tidak selalu berarti memanggul senjata; mengabdi sesuai profesi secara jujur dan berprestasi merupakan bentuk bela negara sipil."
+  },
+  {
+    "id": 19,
+    "category": "TWK",
+    "question": "Sikap toleransi antarumat beragama yang paling tepat di dalam kehidupan masyarakat majemuk adalah ....",
+    "options": {
+      "A": "Mengikuti ritual ibadah agama lain sebagai bentuk solidaritas",
+      "B": "Membiarkan dan menghormati pemeluk agama lain beribadah sesuai keyakinannya",
+      "C": "Melarang pendirian rumah ibadah di wilayah mayoritas",
+      "D": "Memaksa orang lain menyetujui ajaran agama kita",
+      "E": "Apatis dan tidak mau tahu urusan lingkungan sekitar"
+    },
+    "correct": "B",
+    "explanation": "Toleransi beragama artinya menghargai kebebasan beribadah orang lain tanpa mencampuri atau merusak tata cara ibadah mereka."
+  },
+  {
+    "id": 20,
+    "category": "TWK",
+    "question": "Nilai-nilai Pancasila yang tidak dapat diubah oleh siapapun karena merupakan esensi atau cita-cita inti negara disebut nilai ....",
+    "options": {
+      "A": "Nilai Instrumental",
+      "B": "Nilai Praksis",
+      "C": "Nilai Dasar",
+      "D": "Nilai Material",
+      "E": "Nilai Vital"
+    },
+    "correct": "C",
+    "explanation": "Nilai dasar merupakan asas absolut Pancasila yang bersifat tetap, abstrak, dan menjadi fondasi utama negara."
+  },
+  {
+    "id": 21,
+    "category": "TWK",
+    "question": "Berikut ini yang merupakan contoh pengamalan sila ke-5 Pancasila dalam kehidupan sehari-hari adalah ....",
+    "options": {
+      "A": "Menghargai hasil karya orang lain dengan tidak membajaknya",
+      "B": "Mengutamakan musyawarah untuk mufakat dalam rapat RT",
+      "C": "Berani membela kebenaran dan keadilan demi kemanusiaan",
+      "D": "Cinta tanah air dengan menggunakan produk lokal",
+      "E": "Tekun beribadah sesuai ajaran agama masing-masing"
+    },
+    "correct": "A",
+    "explanation": "Menghargai hasil karya orang lain merupakan butir pengamalan konkret Sila ke-5 (Keadilan Sosial)."
+  },
+  {
+    "id": 22,
+    "category": "TWK",
+    "question": "Semboyan Bhineka Tunggal Ika diambil dari kitab Sutasoma karangan Mpu Tantular yang ditulis pada masa kerajaan ....",
+    "options": {
+      "A": "Sriwijaya",
+      "B": "Majapahit",
+      "C": "Kutai",
+      "D": "Singasari",
+      "E": "Tarumanegara"
+    },
+    "correct": "B",
+    "explanation": "Kitab Sutasoma digubah oleh Mpu Tantular pada era keemasan Kerajaan Majapahit abad ke-14."
+  },
+  {
+    "id": 23,
+    "category": "TWK",
+    "question": "Unsur konstitutif mutlak mutlak yang harus dipenuhi untuk berdirinya suatu negara berdaulat secara hukum Internasional adalah ....",
+    "options": {
+      "A": "Rakyat, wilayah yang tetap, dan pemerintahan yang berdaulat",
+      "B": "Pengakuan de jure dari negara-negara sekutu",
+      "C": "Undang-Undang Dasar dan lagu kebangsaan resmi",
+      "D": "Lembaga peradilan dan angkatan perang yang besar",
+      "E": "Mata uang sendiri dan bahasa nasional"
+    },
+    "correct": "A",
+    "explanation": "Unsur konstitutif berdirinya negara meliputi adanya rakyat, wilayah geografis yang jelas, dan pemerintahan berdaulat."
+  },
+  {
+    "id": 24,
+    "category": "TWK",
+    "question": "Kebebasan berpendapat bagi setiap warga negara Indonesia dijamin oleh UUD 1945, khususnya pada pasal ....",
+    "options": {
+      "A": "Pasal 27 ayat 1",
+      "B": "Pasal 28",
+      "C": "Pasal 29 ayat 2",
+      "D": "Pasal 30 ayat 1",
+      "E": "Pasal 31"
+    },
+    "correct": "B",
+    "explanation": "Pasal 28 UUD 1945 menjamin kemerdekaan berserikat, berkumpul, mengeluarkan pikiran dengan lisan dan tulisan."
+  },
+  {
+    "id": 25,
+    "category": "TWK",
+    "question": "Tindakan korupsi sangat bertentangan dengan nilai integritas nasional karena ....",
+    "options": {
+      "A": "Merusak tatanan moral, keadilan sosial, dan merugikan keuangan negara",
+      "B": "Hanya menguntungkan kelompok masyarakat golongan miskin",
+      "C": "Meningkatkan daya saing produk dalam negeri",
+      "D": "Mempercepat proses birokrasi perizinan usaha",
+      "E": "Mempererat persatuan faksi politik di parlemen"
+    },
+    "correct": "A",
+    "explanation": "Korupsi meruntuhkan sendi keadilan sosial, merusak moral bangsa, serta menghambat pembangunan akibat kerugian materi negara."
+  },
+  {
+    "id": 26,
+    "category": "TWK",
+    "question": "Sebagai identitas nasional, bahasa Indonesia bersumber dan berakar dari perkembangan bahasa ....",
+    "options": {
+      "A": "Jawa Kuno",
+      "B": "Sunda",
+      "C": "Melayu",
+      "D": "Sansekerta",
+      "E": "Bugis"
+    },
+    "correct": "C",
+    "explanation": "Bahasa Indonesia tumbuh dan dikembangkan dari bahasa Melayu yang sejak dahulu digunakan sebagai lingua franca di Nusantara."
+  },
+  {
+    "id": 27,
+    "category": "TWK",
+    "question": "Organisasi pergerakan nasional pertama di Indonesia yang menandai dimulainya era Kebangkitan Nasional pada 20 Mei 1908 adalah ....",
+    "options": {
+      "A": "Sarekat Islam",
+      "B": "Indische Partij",
+      "C": "Budi Utomo",
+      "D": "Perhimpunan Indonesia",
+      "E": "Muhammadiyah"
+    },
+    "correct": "C",
+    "explanation": "Berdirinya Budi Utomo pada 20 Mei 1908 disepakati sebagai tonggak awal era Kebangkitan Nasional Indonesia."
+  },
+  {
+    "id": 28,
+    "category": "TWK",
+    "question": "Perjanjian internasional antara Indonesia dan Belanda yang menghasilkan pengakuan kedaulatan Indonesia secara penuh pada akhir tahun 1949 adalah ....",
+    "options": {
+      "A": "Perjanjian Linggajati",
+      "B": "Perjanjian Renville",
+      "C": "Perjanjian Roem-Royen",
+      "D": "Konferensi Meja Bundar (KMB)",
+      "E": "Perjanjian Bongaya"
+    },
+    "correct": "D",
+    "explanation": "Konferensi Meja Bundar (KMB) di Den Haag menghasilkan penyerahan dan pengakuan kedaulatan resmi kepada RIS."
+  },
+  {
+    "id": 29,
+    "category": "TWK",
+    "question": "Sikap radikalisme negatif yang menganggap suku bangsa sendiri jauh lebih unggul dibandingkan suku bangsa lain disebut ....",
+    "options": {
+      "A": "Chauvinisme",
+      "B": "Patriotisme",
+      "C": "Sukuisme atau Primordialisme Berlebih",
+      "D": "Kosmopolitanisme",
+      "E": "Etnosentrisme Radikal"
+    },
+    "correct": "E",
+    "explanation": "Etnosentrisme radikal atau sukuisme berlebih adalah cara pandang subjektif yang menilai kebudayaan suku lain lebih rendah dari sukunya sendiri."
+  },
+  {
+    "id": 30,
+    "category": "TWK",
+    "question": "Rumusan dan susunan Pancasila yang benar dan sah tercantum dalam ....",
+    "options": {
+      "A": "Pidato Moh. Yamin tanggal 29 Mei 1945",
+      "B": "Piagam Jakarta",
+      "C": "Pidato Bung Karno tanggal 1 Juni 1945",
+      "D": "Pembukaan UUD 1945",
+      "E": "Mukadimah Konstitusi Sementara RIS"
+    },
+    "correct": "D",
+    "explanation": "Rumusan Pancasila yang resmi digunakan secara hukum adalah yang tertuang pada Alinea IV Pembukaan UUD 1945."
+  },
+{
+    "id": 31,
+    "category": "TIU",
+    "question": "Jika semua mahasiswa memakai kemeja, dan Budi adalah seorang mahasiswa, maka kesimpulan yang paling tepat adalah ....",
+    "options": {
+      "A": "Budi mungkin memakai kemeja",
+      "B": "Budi tidak memakai kemeja",
+      "C": "Budi wajib memakai kemeja saat kuliah saja",
+      "D": "Budi memakai kemeja",
+      "E": "Tidak ada kesimpulan yang benar"
+    },
+    "correct": "D",
+    "explanation": "Silogisme sederhana: Semua A adalah B. C adalah A. Maka C adalah B (Budi memakai kemeja)."
+  },
+  {
+    "id": 32,
+    "category": "TIU",
+    "question": "Lanjutkan deret angka berikut: 2, 4, 8, 16, 32, ...",
+    "options": {
+      "A": "40",
+      "B": "48",
+      "C": "64",
+      "D": "50",
+      "E": "72"
+    },
+    "correct": "C",
+    "explanation": "Pola deret dikalikan 2 secara konsisten (32 x 2 = 64)."
+  },
+  {
+    "id": 33,
+    "category": "TIU",
+    "question": "KONSTITUSI : UNDANG-UNDANG = ... : ...",
+    "options": {
+      "A": "Negara : Rakyat",
+      "B": "Kitab Suci : Ayat",
+      "C": "Presiden : Menteri",
+      "D": "Laut : Pantai",
+      "E": "Rumah : Atap"
+    },
+    "correct": "B",
+    "explanation": "Analogi hubungan 'wadah/induk dan isinya'. Konstitusi berisi Undang-Undang, Kitab Suci berisi Ayat."
+  },
+  {
+    "id": 34,
+    "category": "TIU",
+    "question": "Sebuah mobil menempuh jarak 120 km dengan kecepatan 60 km/jam. Berapa lama waktu yang dibutuhkan mobil tersebut?",
+    "options": {
+      "A": "1 Jam",
+      "B": "1.5 Jam",
+      "C": "2 Jam",
+      "D": "2.5 Jam",
+      "E": "3 Jam"
+    },
+    "correct": "C",
+    "explanation": "Rumus Waktu (t) = Jarak (s) / Kecepatan (v) = 120 / 60 = 2 Jam."
+  },
+  {
+    "id": 35,
+    "category": "TIU",
+    "question": "Sari membeli baju seharga Rp 200.000 dengan diskon 15%. Berapakah uang yang harus dibayarkan oleh Sari?",
+    "options": {
+      "A": "Rp 150.000",
+      "B": "Rp 170.000",
+      "C": "Rp 180.000",
+      "D": "Rp 185.000",
+      "E": "Rp 190.000"
+    },
+    "correct": "B",
+    "explanation": "Diskon = 15% x 200.000 = 30.000. Total bayar = 200.000 - 30.000 = Rp 170.000."
+  },
+  {
+    "id": 36,
+    "category": "TIU",
+    "question": "Jika x = 5 dan y = 3, serta z = 2x + 3y, maka nilai dari z adalah ....",
+    "options": {
+      "A": "16",
+      "B": "19",
+      "C": "21",
+      "D": "25",
+      "E": "26"
+    },
+    "correct": "B",
+    "explanation": "Substitusi nilai: z = 2(5) + 3(3) = 10 + 9 = 19."
+  },
+  {
+    "id": 37,
+    "category": "TIU",
+    "question": "FIKTIF >< ....",
+    "options": {
+      "A": "Nyata",
+      "B": "Sastra",
+      "C": "Dugaan",
+      "D": "Palsu",
+      "E": "Khayalan"
+    },
+    "correct": "A",
+    "explanation": "Antonim (lawan kata) dari fiktif (khayalan/tidak nyata) adalah Nyata."
+  },
+  {
+    "id": 38,
+    "category": "TIU",
+    "question": "EVALUASI = ....",
+    "options": {
+      "A": "Ujian",
+      "B": "Perbandingan",
+      "C": "Penilaian",
+      "D": "Perbaikan",
+      "E": "Perencanaan"
+    },
+    "correct": "C",
+    "explanation": "Sinonim (persamaan kata) dari evaluasi adalah penilaian."
+  },
+  {
+    "id": 39,
+    "category": "TIU",
+    "question": "Suatu pekerjaan dapat diselesaikan dalam waktu 12 hari oleh 4 orang. Jika pekerja ditambah menjadi 6 orang, berapa hari pekerjaan tersebut selesai?",
+    "options": {
+      "A": "6 Hari",
+      "B": "8 Hari",
+      "C": "9 Hari",
+      "D": "10 Hari",
+      "E": "11 Hari"
+    },
+    "correct": "B",
+    "explanation": "Perbandingan berbalik nilai: 12 hari * 4 orang = X hari * 6 orang. X = 48 / 6 = 8 hari."
+  },
+  {
+    "id": 40,
+    "category": "TIU",
+    "question": "Lanjutkan deret angka berikut: 3, 7, 11, 15, ...",
+    "options": {
+      "A": "17",
+      "B": "18",
+      "C": "19",
+      "D": "20",
+      "E": "21"
+    },
+    "correct": "C",
+    "explanation": "Pola deret aritmatika bertambah 4 secara konsisten (+4)."
+  },
+  {
+    "id": 41,
+    "category": "TIU",
+    "question": "GUDANG : BARANG = ... : ...",
+    "options": {
+      "A": "Lampu : Gelap",
+      "B": "Buku : Perpustakaan",
+      "C": "Dompet : Uang",
+      "D": "Sawah : Padi",
+      "E": "Dapur : Masak"
+    },
+    "correct": "C",
+    "explanation": "Analogi 'tempat menyimpan sesuatu'. Gudang tempat menyimpan Barang, Dompet tempat menyimpan Uang."
+  },
+  {
+    "id": 42,
+    "category": "TIU",
+    "question": "RATA : SAMAR = .... : ....",
+    "options": {
+      "A": "Bengkok : Lurus",
+      "B": "Datar : Jelas",
+      "C": "Kasar : Halus",
+      "D": "Tinggi : Pendek",
+      "E": "Sama : Berbeda"
+    },
+    "correct": "B",
+    "explanation": "Analogi sinonim bersilangan. Rata bersinonim dengan Datar, Samar bersinonim dengan Jelas (kurang kelihatan/nyata secara visual)."
+  },
+  {
+    "id": 43,
+    "category": "TIU",
+    "question": "Jika A = 2B, B = 3C, dan C = 4, berapakah nilai dari A + B + C?",
+    "options": {
+      "A": "32",
+      "B": "36",
+      "C": "40",
+      "D": "44",
+      "E": "48"
+    },
+    "correct": "C",
+    "explanation": "C = 4. Maka B = 3(4) = 12. Maka A = 2(12) = 24. Total = 24 + 12 + 4 = 40."
+  },
+  {
+    "id": 44,
+    "category": "TIU",
+    "question": "Sebuah toko memberikan keuntungan sebesar 20% dari harga beli. Jika sebuah barang terjual dengan harga Rp 120.000, berapa harga beli barang tersebut?",
+    "options": {
+      "A": "Rp 90.000",
+      "B": "Rp 95.000",
+      "C": "Rp 100.000",
+      "D": "Rp 105.000",
+      "E": "Rp 110.000"
+    },
+    "correct": "C",
+    "explanation": "Harga Jual = 120% dari Harga Beli. 120.000 = 1.2 * Harga Beli. Harga Beli = 120.000 / 1.2 = Rp 100.000."
+  },
+  {
+    "id": 45,
+    "category": "TIU",
+    "question": "Lanjutkan deret angka berikut: 1, 4, 9, 16, 25, ...",
+    "options": {
+      "A": "30",
+      "B": "35",
+      "C": "36",
+      "D": "40",
+      "E": "49"
+    },
+    "correct": "C",
+    "explanation": "Pola angka kuadrat: 1², 2², 3², 4², 5², selanjutnya 6² = 36."
+  },
+  {
+    "id": 46,
+    "category": "TIU",
+    "question": "Semua mamalia menyusui anaknya. Paus adalah mamalia. Kesimpulan yang sah adalah ....",
+    "options": {
+      "A": "Semua paus menyusui anaknya",
+      "B": "Paus bukan menyusui anaknya",
+      "C": "Paus menyusui anaknya",
+      "D": "Paus bertelur dan menyusui",
+      "E": "Sebagian paus tidak menyusui anaknya"
+    },
+    "correct": "C",
+    "explanation": "Silogisme kategoris universal: Karena Paus termasuk mamalia, maka otomatis Paus menyusui anaknya."
+  },
+  {
+    "id": 47,
+    "category": "TIU",
+    "question": "Jika hari hujan, maka tanah basah. Saat ini tanah tidak basah. Kesimpulan yang tepat adalah ....",
+    "options": {
+      "A": "Hari hujan",
+      "B": "Hari tidak hujan",
+      "C": "Hari mendung",
+      "D": "Tanah kering karena terik",
+      "E": "Tidak dapat disimpulkan"
+    },
+    "correct": "B",
+    "explanation": "Menggunakan aturan Modus Tollens: p → q, ~q, maka kesimpulannya adalah ~p (Hari tidak hujan)."
+  },
+  {
+    "id": 48,
+    "category": "TIU",
+    "question": "KONTRAKTOR : BANGUNAN = ... : ...",
+    "options": {
+      "A": "Masinis : Kereta",
+      "B": "Sutradara : Film",
+      "C": "Guru : Murid",
+      "D": "Dokter : Pasien",
+      "E": "Pengacara : Hakim"
+    },
+    "correct": "B",
+    "explanation": "Analogi 'profesi dan hasil karya ciptaannya'. Kontraktor menghasilkan Bangunan, Sutradara menghasilkan Film."
+  },
+  {
+    "id": 49,
+    "category": "TIU",
+    "question": "INSOMNIA >< ....",
+    "options": {
+      "A": "Sakit kepala",
+      "B": "Cemas",
+      "C": "Nyenyak",
+      "D": "Mengantuk",
+      "E": "Tidur"
+    },
+    "correct": "C",
+    "explanation": "Insomnia berarti gejala susah tidur. Lawan kata (antonim) yang paling tepat secara kontekstual keadaan adalah Nyenyak."
+  },
+  {
+    "id": 50,
+    "category": "TIU",
+    "question": "AKURAT = ....",
+    "options": {
+      "A": "Sembarangan",
+      "B": "Tepat",
+      "C": "Meleset",
+      "D": "Bagus",
+      "E": "Ragu"
+    },
+    "correct": "B",
+    "explanation": "Sinonim kata akurat adalah tepat, jitu, atau teliti."
+  },
+  {
+    "id": 51,
+    "category": "TIU",
+    "question": "Rata-rata nilai matematika dari 5 siswa adalah 80. Jika ditambahkan nilai seorang siswa baru, rata-ratanya menjadi 82. Berapakah nilai siswa baru tersebut?",
+    "options": {
+      "A": "88",
+      "B": "90",
+      "C": "92",
+      "D": "94",
+      "E": "96"
+    },
+    "correct": "C",
+    "explanation": "Total nilai awal = 5 * 80 = 400. Total nilai baru = 6 * 82 = 492. Nilai siswa baru = 492 - 400 = 92."
+  },
+  {
+    "id": 52,
+    "category": "TIU",
+    "question": "Lanjutkan deret angka berikut: 100, 95, 85, 70, ...",
+    "options": {
+      "A": "60",
+      "B": "55",
+      "C": "50",
+      "D": "45",
+      "E": "40"
+    },
+    "correct": "C",
+    "explanation": "Pola pengurangan bertingkat: -5, -10, -15, selanjutnya -20 (70 - 20 = 50)."
+  },
+  {
+    "id": 53,
+    "category": "TIU",
+    "question": "Sebuah tangki air berisi 1/3 bagian. Jika ditambah 20 liter air, tangki tersebut menjadi berisi 1/2 bagian. Berapa kapasitas total tangki tersebut?",
+    "options": {
+      "A": "80 Liter",
+      "B": "100 Liter",
+      "C": "120 Liter",
+      "D": "140 Liter",
+      "E": "160 Liter"
+    },
+    "correct": "C",
+    "explanation": "1/2 x - 1/3 x = 20 -> 1/6 x = 20 -> x = 120 Liter."
+  },
+  {
+    "id": 54,
+    "category": "TIU",
+    "question": "Jika 3x + 5 = 20, maka nilai dari 2x - 1 adalah ....",
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10",
+      "E": "11"
+    },
+    "correct": "C",
+    "explanation": "3x = 15 -> x = 5. Nilai 2x - 1 = 2(5) - 1 = 9."
+  },
+  {
+    "id": 55,
+    "category": "TIU",
+    "question": "A, D, G, J, ...",
+    "options": {
+      "A": "K",
+      "B": "L",
+      "C": "M",
+      "D": "N",
+      "E": "O"
+    },
+    "correct": "C",
+    "explanation": "Pola huruf melompat 2 langkah: A (+bc) D (+ef) G (+hi) J (+kl) M."
+  },
+  {
+    "id": 56,
+    "category": "TIU",
+    "question": "Semua unggas bertelur. Sebagian unggas tidak bisa terbang. Kesimpulan yang paling tepat adalah ....",
+    "options": {
+      "A": "Semua yang bertelur tidak bisa terbang",
+      "B": "Sebagian yang bertelur tidak bisa terbang",
+      "C": "Semua unggas bisa terbang",
+      "D": "Sebagian unggas tidak bertelur",
+      "E": "Tidak ada kesimpulan yang sah"
+    },
+    "correct": "B",
+    "explanation": "Karena semua unggas bertelur, dan ada sebagian unggas tidak bisa terbang, maka sebagian makhluk bertelur tersebut tidak bisa terbang."
+  },
+  {
+    "id": 57,
+    "category": "TIU",
+    "question": "Setengah dari suatu bilangan dikurangi 4 adalah 10. Bilangan yang dimaksud adalah ....",
+    "options": {
+      "A": "24",
+      "B": "26",
+      "C": "28",
+      "D": "30",
+      "E": "32"
+    },
+    "correct": "C",
+    "explanation": "0.5x - 4 = 10 -> 0.5x = 14 -> x = 28."
+  },
+  {
+    "id": 58,
+    "category": "TIU",
+    "question": "HEWAN : KNALPOT = ... : ...",
+    "options": {
+      "A": "Sapi : Sepeda",
+      "B": "Insang : Karbon",
+      "C": "Kuda : Motor",
+      "D": "Paru-paru : Pabrik",
+      "E": "Anjing : Kucing"
+    },
+    "correct": "C",
+    "explanation": "Analogi asosiasi klasifikasi tenaga penggerak. Hewan (seperti kuda) penarik dokar/alat transportasi, Knalpot bagian mesin motor."
+  },
+  {
+    "id": 59,
+    "category": "TIU",
+    "question": "AMBIGU = ....",
+    "options": {
+      "A": "Jelas",
+      "B": "Pasti",
+      "C": "Bermakna ganda",
+      "D": "Satu arti",
+      "E": "Bingung"
+    },
+    "correct": "C",
+    "explanation": "Ambigu artinya memiliki makna lebih dari satu sehingga menimbulkan keraguan (bermakna ganda)."
+  },
+  {
+    "id": 60,
+    "category": "TIU",
+    "question": "SKEPTIS >< ....",
+    "options": {
+      "A": "Ragu",
+      "B": "Yakin",
+      "C": "Curiga",
+      "D": "Pasrah",
+      "E": "Takut"
+    },
+    "correct": "B",
+    "explanation": "Skeptis berarti kurang percaya atau ragu-ragu. Lawan katanya adalah Yakin."
+  },
+  {
+    "id": 61,
+    "category": "TIU",
+    "question": "Umur Andi 3 kali umur Budi. Jika selisih umur mereka adalah 10 tahun, berapakah umur Andi?",
+    "options": {
+      "A": "12 Tahun",
+      "B": "15 Tahun",
+      "C": "18 Tahun",
+      "D": "20 Tahun",
+      "E": "22 Tahun"
+    },
+    "correct": "B",
+    "explanation": "A = 3B. A - B = 10 -> 3B - B = 10 -> 2B = 10 -> B = 5 tahun. Umur Andi = 3 * 5 = 15 tahun."
+  },
+  {
+    "id": 62,
+    "category": "TIU",
+    "question": "Lanjutkan deret angka berikut: 4, 9, 19, 39, ...",
+    "options": {
+      "A": "59",
+      "B": "69",
+      "C": "79",
+      "D": "89",
+      "E": "99"
+    },
+    "correct": "C",
+    "explanation": "Pola deret: (Angka sebelumnya x 2) + 1. Jadi, (39 x 2) + 1 = 78 + 1 = 79."
+  },
+  {
+    "id": 63,
+    "category": "TIU",
+    "question": "Sebuah persegi memiliki luas 64 cm². Berapakah keliling persegi tersebut?",
+    "options": {
+      "A": "24 cm",
+      "B": "28 cm",
+      "C": "32 cm",
+      "D": "36 cm",
+      "E": "40 cm"
+    },
+    "correct": "C",
+    "explanation": "Luas = s² = 64 -> s = 8 cm. Keliling = 4 * s = 4 * 8 = 32 cm."
+  },
+  {
+    "id": 64,
+    "category": "TIU",
+    "question": "Bila roda berputar, maka poros bergerak. Roda tidak berputar. Kesimpulan yang paling tepat adalah ....",
+    "options": {
+      "A": "Poros bergerak",
+      "B": "Poros tidak bergerak",
+      "C": "Poros macet",
+      "D": "Mesin mati",
+      "E": "Tidak dapat disimpulkan"
+    },
+    "correct": "E",
+    "explanation": "Dalam logika matematika, kondisi p → q dan diberikan fakta ~p tidak memiliki kesimpulan valid (Poros bisa saja bergerak akibat faktor lain)."
+  },
+  {
+    "id": 65,
+    "category": "TIU",
+    "question": "Lanjutkan deret huruf berikut: A, C, E, G, ...",
+    "options": {
+      "A": "H",
+      "B": "I",
+      "C": "J",
+      "D": "K",
+      "E": "L"
+    },
+    "correct": "I",
+    "explanation": "Pola melompati 1 huruf: A (b) C (d) E (f) G (h) I."
+  },
     {
-        "id": 10,
-        "category": "TWK",
-        "question": "Rumusan dan susunan Pancasila yang benar dan sah tercantum dalam ....",
-        "options": {
-            "A": "Pidato Moh. Yamin tanggal 29 Mei 1945",
-            "B": "Piagam Jakarta",
-            "C": "Pidato Bung Karno tanggal 1 Juni 1945",
-            "D": "Pembukaan UUD 1945",
-            "E": "Mukadimah Konstitusi Sementara RIS"
-        },
-        "correct": "D",
-        "explanation": "Rumusan Pancasila yang sah secara konstitusional hukum tata negara adalah yang tercantum di dalam Pembukaan UUD 1945 alinea ke-4, yang disahkan pada 18 Agustus 1945 oleh PPKI."
-    }
+    "id": 66,
+    "category": "TKP",
+    "question": "Ketika Anda sedang sibuk menyelesaikan laporan mendadak, seorang rekan kerja datang meminta bantuan untuk menjelaskan sistem baru. Sikap Anda adalah ....",
+    "options": {
+      "A": "Mengabaikannya karena tugas Anda lebih mendesak",
+      "B": "Membantunya segera dan meninggalkan pekerjaan Anda",
+      "C": "Memintanya menunggu sebentar dan membantunya setelah laporan selesai",
+      "D": "Memintanya bertanya pada rekan kerja lain yang tidak sibuk",
+      "E": "Melaporkannya ke atasan karena mengganggu kerja"
+    },
+    "correct": "C",
+    "explanation": "Menunjukkan aspek profesionalisme sekaligus kerja sama dengan memberikan solusi rasional (prioritas kerja utama selesai tanpa menolak membantu)."
+  },
+  {
+    "id": 67,
+    "category": "TKP",
+    "question": "Instansi Anda menerapkan aplikasi presensi online baru yang sering mengalami kendala teknis (error). Tanggapan Anda adalah ....",
+    "options": {
+      "A": "Protes kepada bagian IT agar segera dikembalikan ke sistem manual",
+      "B": "Mempelajari kendala tersebut dan tetap berusaha menggunakannya secara sabar",
+      "C": "Mengisi presensi secara manual saja tanpa memedulikan sistem baru",
+      "D": "Mengeluhkan sistem tersebut di media sosial pribadi",
+      "E": "Sering datang terlambat dengan alasan sistem sedang error"
+    },
+    "correct": "B",
+    "explanation": "Mencerminkan kemampuan adaptasi terhadap teknologi baru dan ketahanan kerja terhadap perubahan sistem inovatif instansi."
+  },
+  {
+    "id": 68,
+    "category": "TKP",
+    "question": "Anda ditunjuk memimpin sebuah tim kerja dengan anggota yang berasal dari berbagai daerah dengan latar belakang budaya berbeda. Langkah awal Anda adalah ....",
+    "options": {
+      "A": "Membuat aturan ketat agar mereka mengikuti budaya Anda",
+      "B": "Memilih anggota dari daerah yang sama dengan Anda sebagai orang kepercayaan",
+      "C": "Mengadakan pertemuan santai untuk saling mengenal dan membangun kesepahaman bersama",
+      "D": "Membiarkan mereka bekerja sendiri-sendiri sesuai cara masing-masing",
+      "E": "Meminta atasan mengganti anggota tim dengan yang lebih homogen"
+    },
+    "correct": "C",
+    "explanation": "Menunjukkan kompetensi jejaring kerja dan komunikasi sosial-budaya yang inklusif untuk merekatkan tim yang beragam."
+  },
+  {
+    "id": 69,
+    "category": "TKP",
+    "question": "Seorang pelanggan marah-marah di depan loket pelayanan Anda karena berkasnya dinilai terlambat diproses. Tindakan Anda adalah ....",
+    "options": {
+      "A": "Membalas kemarahannya karena dia tidak tahu prosedur",
+      "B": "Mendengarkan keluhannya dengan tenang, meminta maaf, and segera memeriksa status berkasnya",
+      "C": "Meminta satpam untuk mengeluarkannya dari ruangan",
+      "D": "Meninggalkan loket dan membiarkannya bicara sendiri",
+      "E": "Menyalahkan bagian gudang berkas atas keterlambatan tersebut"
+    },
+    "correct": "B",
+    "explanation": "Mencerminkan orientasi pada pelayanan prima, empati, dan pengendalian diri yang sangat baik dalam menghadapi komplain."
+  },
+  {
+    "id": 70,
+    "category": "TKP",
+    "question": "Organisasi Anda sedang mengalami penurunan kinerja. Sebagai anggota organisasi, apa yang Anda lakukan?",
+    "options": {
+      "A": "Mencari lowongan kerja di tempat lain sebelum organisasi bangkrut",
+      "B": "Bekerja seperti biasa karena itu tanggung jawab pimpinan",
+      "C": "Mengusulkan ide inovatif dan bekerja lebih giat untuk membantu memulihkan performa tim",
+      "D": "Menyalahkan rekan kerja yang malas",
+      "E": "Menunggu instruksi perubahan tanpa melakukan inisiatif pribadi"
+    },
+    "correct": "C",
+    "explanation": "Menunjukkan semangat berprestasi, rasa kepemilikan tinggi (sense of belonging), dan inisiatif solusi bagi tantangan kelompok."
+  },
+  {
+    "id": 71,
+    "category": "TKP",
+    "question": "Anda mendapati rekan kerja satu ruangan sering menggunakan fasilitas printer kantor untuk keperluan bisnis sampingan pribadinya. Sikap Anda adalah ....",
+    "options": {
+      "A": "Membiarkannya karena bukan urusan Anda",
+      "B": "Ikut menggunakan printer untuk keperluan pribadi Anda juga",
+      "C": "Mengingatkannya secara baik-baik bahwa fasilitas kantor hanya untuk urusan dinas",
+      "D": "Langsung melaporkannya ke pihak berwajib atas tindakan korupsi",
+      "E": "Membicarakannya di belakang bersama rekan kerja yang lain"
+    },
+    "correct": "C",
+    "explanation": "Mencerminkan integritas tinggi dalam menjaga aset negara/organisasi dengan cara persuasif yang profesional."
+  },
+  {
+    "id": 72,
+    "category": "TKP",
+    "question": "Atasan memberikan tugas baru yang sama sekali belum pernah Anda pelajari sebelumnya. Respon Anda adalah ....",
+    "options": {
+      "A": "Menolak tugas tersebut secara halus karena takut hasilnya buruk",
+      "B": "Menerima tugas tersebut lalu menyerahkan pengerjaannya kepada bawahan",
+      "C": "Menerimanya dengan antusias, lalu aktif belajar secara mandiri maupun bertanya kepada yang ahli",
+      "D": "Mengeluh kepada rekan kerja tentang ketidakadilan atasan",
+      "E": "Mengerjakannya asal-asalan yang penting tugas tersebut terkumpul"
+    },
+    "correct": "C",
+    "explanation": "Menunjukkan indikator kemauan belajar berkelanjutan (continuous learning) dan keberanian menghadapi tantangan kerja baru."
+  },
+  {
+    "id": 73,
+    "category": "TKP",
+    "question": "Anda ditugaskan ke daerah terpencil yang minim fasilitas internet dan listrik untuk melakukan sosialisasi program kerja. Sikap Anda adalah ....",
+    "options": {
+      "A": "Meminta dispensasi pembatalan tugas karena kondisi lokasi tidak memadai",
+      "B": "Menerima tugas dan mempersiapkan materi sosialisasi dalam bentuk cetak/manual sebagai alternatif",
+      "C": "Pergi ke lokasi tugas tetapi tidak melaksanakan sosialisasi dengan maksimal",
+      "D": "Memperpendek waktu kunjungan dinas tanpa izin atasan",
+      "E": "Mengeluh sepanjang perjalanan dinas ke rekan satu tim"
+    },
+    "correct": "B",
+    "explanation": "Membuktikan kesiapan kerja di segala kondisi lingkungan serta kecakapan mitigasi masalah secara mandiri (solutif)."
+  },
+  {
+    "id": 74,
+    "category": "TKP",
+    "question": "Bagaimana Anda melihat target kerja bulanan yang sangat tinggi yang ditetapkan oleh manajemen perusahaan?",
+    "options": {
+      "A": "Sebagai beban berat yang sengaja dibuat untuk memotong bonus pegawai",
+      "B": "Sebagai tantangan untuk memicu kreativitas dan strategi kerja yang lebih efisien",
+      "C": "Sesuatu yang mustahil dicapai sehingga tidak perlu dikejar terlalu serius",
+      "D": "Target yang biasa saja jika dikerjakan dengan santai",
+      "E": "Alasan untuk meminta tambahan fasilitas dan staf bantuan baru"
+    },
+    "correct": "B",
+    "explanation": "Mencerminkan motivasi berprestasi tinggi dan orientasi masa depan yang positif terhadap target kemajuan organisasi."
+  },
+  {
+    "id": 75,
+    "category": "TKP",
+    "question": "Saat rapat koordinasi nasional, opini Anda ditolak mentah-mentah oleh forum. Sikap Anda menghadapi hal ini adalah ....",
+    "options": {
+      "A": "Langsung keluar dari ruangan rapat (walk out) karena merasa terhina",
+      "B": "Menerima keputusan forum dengan lapang dada dan mendukung keputusan akhir yang disepakati",
+      "C": "Tetap bersikeras mempertahankan opini Anda sepanjang jalannya rapat",
+      "D": "Memusuhi rekan rapat yang menolak opini Anda tersebut",
+      "E": "Tidak mau lagi mengeluarkan pendapat pada rapat-rapat berikutnya"
+    },
+    "correct": "B",
+    "explanation": "Mencerminkan kematangan emosi, kedewasaan bersikap, pengendalian diri, dan penghormatan terhadap mufakat demokrasi kelompok."
+  },
+  {
+    "id": 76,
+    "category": "TKP",
+    "question": "Rekan kerja Anda kedapatan membuat kesalahan input data finansial yang cukup fatal. Sebagai rekan kerja dekat, Anda akan ....",
+    "options": {
+      "A": "Melaporkannya ke Direktur agar dia segera mendapat sanksi pemecatan",
+      "B": "Membantunya memeriksa kembali serta memperbaiki *error* data tersebut sebelum diperiksa atasan",
+      "C": "Menertawakannya karena dia dikenal sebagai pegawai yang sangat teliti",
+      "D": "Menyebarkan berita kesalahan tersebut di grup obrolan kantor",
+      "E": "Pura-pura tidak tahu agar tidak ikut terseret masalah"
+    },
+    "correct": "B",
+    "explanation": "Aspek jejaring kerja dan pemecahan masalah bersama. Menolong rekan memperbaiki kekeliruan demi kebaikan performa instansi secara keseluruhan."
+  },
+  {
+    "id": 77,
+    "category": "TKP",
+    "question": "Ketika menghadapi situasi kerja yang sangat menekan dan dikejar *deadline* ketat, biasanya Anda ....",
+    "options": {
+      "A": "Menjadi mudah marah dan menyalahkan keadaan sekitar",
+      "B": "Tetap tenang, membuat skala prioritas tugas, lalu menyelesaikannya satu per satu",
+      "C": "Memutuskan untuk mengambil cuti sakit mendadak agar terhindar dari stres",
+      "D": "Mengerjakan tugas seadanya saja yang penting selesai tepat waktu",
+      "E": "Meminta bantuan orang lain secara paksa untuk membagi beban"
+    },
+    "correct": "B",
+    "explanation": "Mengukur indikator ketahanan diri dan kemampuan mengendalikan emosi secara matang di bawah tekanan kerja ekstrem."
+  },
+  {
+    "id": 78,
+    "category": "TKP",
+    "question": "Anda ditugaskan mempelajari sistem pemrograman data analitik mutakhir oleh kantor dalam waktu 3 hari. Tindakan Anda adalah ....",
+    "options": {
+      "A": "Mengundurkan diri dari penugasan karena keterbatasan waktu",
+      "B": "Mencari tutorial video, membaca dokumentasi resmi, and mencobanya langsung siang-malam",
+      "C": "Membeli aplikasi bajakan yang instan agar terlihat sudah menguasainya",
+      "D": "Meminta perpanjangan waktu studi hingga satu bulan penuh",
+      "E": "Tidur selama masa pelatihan karena materinya terlalu sulit dipahami"
+    },
+    "correct": "B",
+    "explanation": "Menunjukkan kemauan belajar hal baru secara berkelanjutan (*continuous learning*) dengan dedikasi serta inisiatif tinggi."
+  },
+  {
+    "id": 79,
+    "category": "TKP",
+    "question": "Kantor Anda meluncurkan program pemilahan sampah organik dan anorganik. Namun, banyak rekan kerja acuh tak acuh. Anda akan ....",
+    "options": {
+      "A": "Ikut acuh tak acuh karena mayoritas pegawai bersikap demikian",
+      "B": "Secara konsisten membuang sampah dengan benar dan mengajak rekan seruangan melakukan hal yang sama",
+      "C": "Membuang semua tempat sampah kantor sebagai bentuk protes",
+      "D": "Memotret rekan yang melanggar lalu mengunggahnya secara anonim di internet",
+      "E": "Menghukum fisik rekan yang salah membuang sampah"
+    },
+    "correct": "B",
+    "explanation": "Mencerminkan kompetensi sebagai penggerak perubahan positif (*agent of change*) mulai dari kedisiplinan diri sendiri."
+  },
+  {
+    "id": 80,
+    "category": "TKP",
+    "question": "Jika terjadi perbedaan pendapat yang tajam antara Anda dan rekan setim saat merancang konsep proyek baru, Anda akan ....",
+    "options": {
+      "A": "Meninggalkan tim dan membangun proyek tandingan sendiri",
+      "B": "Mengajjak rekan tersebut berdiskusi logis, mencari titik temu, and mengombinasikan ide terbaik",
+      "C": "Meminta anggota tim lain melakukan pemungutan suara untuk menjatuhkan ide rekan tersebut",
+      "D": "Mengalah sepenuhnya demi menghindari konflik berkepanjangan",
+      "E": "Melaporkan rekan tersebut ke bagian HRD atas tuduhan pembangkangan ide"
+    },
+    "correct": "B",
+    "explanation": "Menguji kemampuan komunikasi interpersonal, manajemen konflik, dan orientasi kolaboratif dalam sebuah tim kerja."
+  },
+  {
+    "id": 81,
+    "category": "TKP",
+    "question": "Seorang warga lansia kesulitan menggunakan mesin antrean digital di instansi tempat Anda bekerja. Apa yang Anda lakukan?",
+    "options": {
+      "A": "Menontonnya dari jauh karena bukan merupakan deskripsi pekerjaan utama Anda",
+      "B": "Menghampirinya dengan ramah, menjelaskan caranya, dan membantunya memencet tombol menu",
+      "C": "Menyuruh warga lain yang berada di belakangnya untuk membantu lansia tersebut",
+      "D": "Menyarankan lansia tersebut pulang dan membawa cucunya besok",
+      "E": "Memarahi penyedia mesin karena layar aplikasinya dinilai terlalu membingungkan"
+    },
+    "correct": "B",
+    "explanation": "Menunjukkan kepekaan sosial dan komitmen orientasi pelayanan publik yang responsif tanpa memandang latar belakang."
+  },
+  {
+    "id": 82,
+    "category": "TKP",
+    "question": "Instansi Anda mendadak memangkas anggaran operasional divisi Anda sebesar 30%. Strategi Anda adalah ....",
+    "options": {
+      "A": "Menghentikan seluruh aktivitas pelayanan publik secara total",
+      "B": "Melakukan efisiensi pengeluaran logistik dan mengoptimalkan pemanfaatan teknologi digital gratis",
+      "C": "Melakukan demonstrasi mogok kerja bersama rekan satu divisi",
+      "D": "Menggunakan dana tabungan pribadi Anda untuk menutupi kekurangan operasional kantor",
+      "E": "Mengajukan komplain keras setiap hari melalui memo resmi ke bagian keuangan"
+    },
+    "correct": "B",
+    "explanation": "Mengukur kecerdasan manajerial, daya kreativitas, and kemampuan adaptasi solusi di tengah keterbatasan sumber daya."
+  },
+  {
+    "id": 83,
+    "category": "TKP",
+    "question": "Anda menemukan kelemahan celah keamanan (*bug*) pada sistem basis data internal instansi. Tindakan terbaik Anda adalah ....",
+    "options": {
+      "A": "Memanfaatkan celah tersebut untuk mengubah data nilai performa kerja Anda pribadi",
+      "B": "Segera mendokumentasikannya dan melaporkan secara rahasia ke tim IT agar bisa langsung ditambal",
+      "C": "Menjual informasi celah keamanan tersebut kepada pihak kompetitor luar",
+      "D": "Membahas kelemahan sistem tersebut di forum publik agar instansi merasa malu",
+      "E": "Membiarkannya saja sampai ada orang lain yang menyadarinya sendiri"
+    },
+    "correct": "B",
+    "explanation": "Mencerminkan nilai integritas tinggi, profesionalisme, dan rasa kepemilikan (*sense of responsibility*) terhadap keamanan organisasi."
+  },
+  {
+    "id": 84,
+    "category": "TKP",
+    "question": "Menurut Anda, kunci utama keberhasilan dalam eksekusi program kerja kelompok yang rumit terletak pada ....",
+    "options": {
+      "A": "Keberadaan satu pemimpin tunggal yang otoriter dan ditakuti anggota",
+      "B": "Komunikasi yang transparan, pembagian peran yang berbasis kompetensi, dan evaluasi berkala",
+      "C": "Besarnya nominal bonus dana yang dijanjikan oleh pihak manajemen",
+      "D": "Kondisi lingkungan kerja yang selalu santai tanpa adanya aturan jam masuk",
+      "E": "Keberuntungan dan eliminasi anggota tim yang kritis"
+    },
+    "correct": "B",
+    "explanation": "Indikator pemahaman tata kelola tim, manajemen sinergi kelompok, and perencanaan skema kerja strategis."
+  },
+  {
+    "id": 85,
+    "category": "TKP",
+    "question": "Saat Anda sedang cuti liburan keluarga, atasan menghubungi karena ada dokumen darurat yang hanya bisa Anda verifikasi. Sikap Anda ....",
+    "options": {
+      "A": "Mematikan ponsel dan memblokir nomor kontak atasan selama liburan",
+      "B": "Mencari tempat dengan sinyal bagus, meluangkan waktu sejenak untuk memverifikasi dokumen demi kelancaran kantor",
+      "C": "Marah-marah kepada atasan karena mengganggu hak waktu istirahat libur Anda",
+      "D": "Meminta atasan menunggu sampai masa cuti Anda habis dua minggu lagi",
+      "E": "Menyuruh anak atau pasangan Anda untuk membalas pesan tersebut"
+    },
+    "correct": "B",
+    "explanation": "Menunjukkan fleksibilitas, loyalitas kerja proporsional, and tanggung jawab profesional terhadap urusan penting darurat."
+  },
+  {
+    "id": 86,
+    "category": "TKP",
+    "question": "Anda dipindahkan ke unit kerja baru yang pola komunikasinya sangat formal, berbeda dengan unit lama Anda yang santai. Anda akan ....",
+    "options": {
+      "A": "Tetap berkomunikasi santai karena menganggap gaya formal kaku dan kuno",
+      "B": "Mengamati, mempelajari etika komunikasi baru, dan menyesuaikan tutur kata serta sikap Anda",
+      "C": "Meminta mutasi kembali ke unit lama pada hari pertama bekerja",
+      "D": "Menjadi pendiam dan menghindari interaksi dengan rekan baru",
+      "E": "Memprotes budaya formal tersebut di hadapan kepala unit baru"
+    },
+    "correct": "B",
+    "explanation": "Mengukur kemampuan adaptasi sosial budaya dan kelenturan bersikap dalam lingkungan kerja baru yang heterogen."
+  },
+  {
+    "id": 87,
+    "category": "TKP",
+    "question": "Ketika draf rencana kerja yang Anda susun dengan susah payah dikritik tajam oleh rekan sejawat dalam forum rapat, Anda akan ....",
+    "options": {
+      "A": "Langsung menyerang balik dengan mencari kesalahan draf milik rekan tersebut",
+      "B": "Mendengarkan dengan objektif, mencatat poin kritik konstruktif, and berterima kasih atas masukannya",
+      "C": "Menangis di tempat rapat dan menuduh forum tidak menghargai usaha Anda",
+      "D": "Menarik diri dari kepanitiaan proyek secara mendadak",
+      "E": "Menerima kritikan tetapi tidak melakukan perubahan apa pun pada draf"
+    },
+    "correct": "B",
+    "explanation": "Mencerminkan kematangan emosional, keterbukaan terhadap pengembangan diri, and profesionalisme menyikapi perbedaan."
+  },
+  {
+    "id": 88,
+    "category": "TKP",
+    "question": "Instansi Anda menerapkan sistem digitalisasi pelaporan surat menyurat, namun metode ini menambah beban waktu entri data awal. Sikap Anda ....",
+    "options": {
+      "A": "Kembali menggunakan metode kertas manual secara sembunyi-sembunyi",
+      "B": "Mengikuti prosedur sistem digital baru seraya mengeksplorasi cara entri yang lebih taktis dan cepat",
+      "C": "Sengaja memperlambat pekerjaan sebagai bentuk penolakan sistem",
+      "D": "Menyuruh mahasiswa magang mengerjakan seluruh proses entri data tanpa pengawasan",
+      "E": "Mengirim surat protes terbuka ke kementerian terkait"
+    },
+    "correct": "B",
+    "explanation": "Menunjukkan kesiapan menghadapi kemajuan teknologi informasi komunikasi dan kemauan mengoptimalkan proses kerja."
+  },
+  {
+    "id": 89,
+    "category": "TKP",
+    "question": "Rekan kerja Anda sering mengeluhkan masalah rumah tangganya di kubikel kerja Anda sehingga mengganggu konsentrasi. Respon Anda ....",
+    "options": {
+      "A": "Membentaknya di depan umum agar dia tahu diri dan segera pergi",
+      "B": "Mendengarkan sebentar dengan empati, lalu mengajaknya fokus kembali ke target pekerjaan harian",
+      "C": "Ikut menceritakan keburukan keluarga Anda agar suasananya semakin ramai",
+      "D": "Melaporkan curhatan pribadinya kepada seluruh karyawan divisi",
+      "E": "Pindah meja kerja ke ruangan lain tanpa izin atasan"
+    },
+    "correct": "B",
+    "explanation": "Menyeimbangkan kepekaan sosial (empati) dengan profesionalisme kerja agar produktivitas tidak terganggu."
+  },
+  {
+    "id": 90,
+    "category": "TKP",
+    "question": "Bagi Anda, definisi aparatur sipil negara yang berintegritas tinggi diwujudkan melalui ....",
+    "options": {
+      "A": "Kepatuhan mutlak pada perintah atasan meskipun perintah tersebut melanggar hukum",
+      "B": "Tindakan yang selaras antara perkataan dan perbuatan sesuai kode etik, baik diawasi maupun tidak",
+      "C": "Kemampuan mengamankan posisi jabatan dari geseran politik",
+      "D": "Kehadiran di kantor tepat waktu hanya saat ada inspeksi mendadak",
+      "E": "Kesediaan membagi keuntungan proyek kepada rekan sejawat"
+    },
+    "correct": "B",
+    "explanation": "Definisi mutlak dari kompetensi integritas: konsistensi menjunjung tinggi norma, aturan, and nilai moral dasar."
+  },
+  {
+    "id": 91,
+    "category": "TKP",
+    "question": "Seorang pengguna layanan penyandang disabilitas (tuna rungu) mendatangi meja konsultasi Anda. Langkah terbaik Anda adalah ....",
+    "options": {
+      "A": "Berbicara dengan berteriak keras di depan wajahnya",
+      "B": "Menyediakan kertas and pulpen untuk berkomunikasi secara tertulis dengan jelas dan sabar",
+      "C": "Memintanya pulang untuk membawa penerjemah bahasa isyarat sendiri",
+      "D": "Mengabaikannya dan beralih melayani pengguna lain yang normal",
+      "E": "Mengarahkan yang bersangkutan langsung ke ruang kepala kantor"
+    },
+    "correct": "B",
+    "explanation": "Orientasi pelayanan prima inklusif: adaptif menyediakan fasilitas bantuan komunikasi darurat yang efektif."
+  },
+  {
+    "id": 92,
+    "category": "TKP",
+    "question": "Unit kerja Anda ditargetkan meraih predikat Wilayah Bebas Korupsi (WBK) tahun ini. Tindakan nyata Anda sebagai staf adalah ....",
+    "options": {
+      "A": "Memasang spanduk anti korupsi yang besar tanpa mengubah perilaku kerja",
+      "B": "Menolak tegas segala bentuk gratifikasi/tips dari pengguna layanan and mendokumentasikan alur kerja secara transparan",
+      "C": "Menyembunyikan berkas lama yang bermasalah agar tidak diperiksa tim penilai",
+      "D": "Meminta pengguna layanan memberikan testimoni palsu yang bagus",
+      "E": "Keluar dari kepanitiaan karena malas mengurus administrasi penilaian"
+    },
+    "correct": "B",
+    "explanation": "Aksi nyata integritas and dukungan penuh terhadap reformasi birokrasi penegakan zona integritas."
+  },
+  {
+    "id": 93,
+    "category": "TKP",
+    "question": "Ketika Anda mendapati metode kerja yang biasa digunakan tim sudah usang and lambat, apa yang akan Anda lakukan?",
+    "options": {
+      "A": "Tetap memakai metode lama karena sudah zona nyaman and aman dari risiko",
+      "B": "Riset metode alternatif yang lebih efektif, mengujinya skala kecil, lalu memaparkan hasilnya ke tim",
+      "C": "Menyalahkan pimpinan karena tidak memperbarui Standar Operasional Prosedur (SOP)",
+      "D": "Mengerjakan tugas dengan lambat sesuai efisiensi metode lama tersebut",
+      "E": "Memaksa seluruh anggota langsung memakai metode baru tanpa pelatihan"
+    },
+    "correct": "B",
+    "explanation": "Menunjukkan semangat kreativitas inovatif and pemecahan masalah secara terstruktur demi peningkatan mutu kerja."
+  },
+  {
+    "id": 94,
+    "category": "TKP",
+    "question": "Bagaimana Anda menyikapi tugas luar kota yang bertepatan dengan hari ulang tahun pernikahan Anda?",
+    "options": {
+      "A": "Menolak tugas tersebut secara mentah-mentah dengan alasan urusan keluarga",
+      "B": "Menerima tugas dengan penuh tanggung jawab and memberikan pengertian serta alternatif perayaan lain kepada pasangan",
+      "C": "Menerima tugas tetapi mengeluh sepanjang waktu kerja di luar kota",
+      "D": "Berangkat ke lokasi tugas tetapi membawa seluruh keluarga besar menggunakan anggaran kantor",
+      "E": "Meminta rekan kerja menggantikan posisi Anda secara sepihak tanpa persetujuan pimpinan"
+    },
+    "correct": "B",
+    "explanation": "Menguji profesionalisme, loyalitas penugasan, serta kematangan komunikasi dalam mengelola hubungan keluarga."
+  },
+  {
+    "id": 95,
+    "category": "TKP",
+    "question": "Saat pembagian bonus performa tahunan, Anda menerima nominal yang lebih kecil dari rekan yang menurut Anda kinerjanya biasa saja. Sikap Anda ....",
+    "options": {
+      "A": "Memprotes and menuduh tim penilai melakukan kolusi dan nepotisme",
+      "B": "Melakukan refleksi diri, memeriksa kembali poin penilaian, and berkonsultasi dengan atasan untuk perbaikan ke depan",
+      "C": "Mengurangi produktivitas kerja Anda pada tahun berikutnya secara drastis",
+      "D": "Merusak fasilitas komputer rekan kerja yang mendapat bonus lebih besar",
+      "E": "Menuntut perusahaan melalui jalur hukum perdata"
+    },
+    "correct": "B",
+    "explanation": "Refleksi motivasi berprestasi tinggi: menyikapi hasil evaluasi secara positif sebagai pelecut perbaikan diri."
+  },
+  {
+    "id": 96,
+    "category": "TKP",
+    "question": "Instansi tempat Anda bekerja mengadakan kegiatan bakti sosial di hari Sabtu (hari libur Anda). Sikap Anda adalah ....",
+    "options": {
+      "A": "Tidak datang karena hari Sabtu adalah hak mutlak Anda untuk beristirahat",
+      "B": "Hadir dengan sukarela and berpartisipasi aktif dalam menyukseskan kegiatan sosial tersebut",
+      "C": "Datang hanya untuk mengisi daftar hadir (presensi) lalu langsung pulang",
+      "D": "Meminta uang lembur khusus kepada panitia jika ingin Anda hadir",
+      "E": "Mengirimkan perwakilan orang lain yang Anda bayar untuk menggantikan Anda"
+    },
+    "correct": "B",
+    "explanation": "Aspek jejaring kerja and kepedulian sosial, serta kontribusi positif terhadap citra baik instansi di masyarakat."
+  },
+  {
+    "id": 97,
+    "category": "TKP",
+    "question": "Jika Anda melihat seorang rekan kerja senior sering datang terlambat namun tidak pernah ditegur oleh atasan, Anda akan ....",
+    "options": {
+      "A": "Ikut-ikutan datang terlambat karena merasa ada ketidakadilan aturan",
+      "B": "Tetap disiplin datang tepat waktu sesuai komitmen aturan and fokus pada kinerja pribadi Anda",
+      "C": "Menyindir rekan senior tersebut secara kasar di depan umum",
+      "D": "Membuat surat kaleng untuk menjatuhkan nama baik atasan",
+      "E": "Mengajak seluruh staf junior melakukan aksi mogok kerja pagi"
+    },
+    "correct": "B",
+    "explanation": "Integritas and kepatuhan aturan yang berakar dari prinsip diri sendiri, bukan sekadar ikut-ikutan tren lingkungan."
+  },
+  {
+    "id": 98,
+    "category": "TKP",
+    "question": "Ketika Anda ditunjuk sebagai ketua panitia sebuah acara besar, hal pertama yang Anda lakukan dalam penyusunan tim adalah ....",
+    "options": {
+      "A": "Memilih sahabat-sahabat terdekat Anda agar mudah diajak nongkrong",
+      "B": "Memetakan kebutuhan kepanitiaan and menempatkan personel berdasarkan rekam jejak keahliannya",
+      "C": "Mengambil alih seluruh deskripsi pekerjaan sendirian tanpa membagi tugas",
+      "D": "Menunggu instruksi detail dari pembina organisasi sebelum bergerak",
+      "E": "Menunjuk anggota secara acak tanpa melihat latar belakang kemampuannya"
+    },
+    "correct": "B",
+    "explanation": "Mengukur jiwa kepemimpinan (*leadership*), kemampuan manajerial delegasi tugas, and perencanaan strategis."
+  },
+  {
+    "id": 99,
+    "category": "TKP",
+    "question": "Anda menemukan dompet terjatuh di koridor kantor yang berisi sejumlah uang tunai and kartu identitas pegawai lain. Anda akan ....",
+    "options": {
+      "A": "Mengambil uangnya and membuang dompet beserta kartu identitasnya",
+      "B": "Segera menyerahkannya ke bagian *security* atau langsung menghubungi pemiliknya berdasarkan kartu identitas",
+      "C": "Menyimpannya di laci meja Anda sampai ada orang yang mengumumkan kehilangan",
+      "D": "Membagikan uang di dalam dompet tersebut kepada rekan seruangan",
+      "E": "Pura-pura tidak melihat dompet tersebut and melangkah melewatinya"
+    },
+    "correct": "B",
+    "explanation": "Prinsip dasar kejujuran ekseptional (integritas) dalam mengelola barang yang bukan merupakan hak miliknya."
+  },
+  {
+    "id": 100,
+    "category": "TKP",
+    "question": "Menurut Anda, cara terbaik untuk meningkatkan pemahaman regulasi kepegawaian yang sering diperbarui adalah ....",
+    "options": {
+      "A": "Menunggu diadakannya sosialisasi resmi bersertifikat dari pusat",
+      "B": "Aktif membaca produk hukum terbaru di laman resmi BKN and berdiskusi dengan bagian kepegawaian",
+      "C": "Mengabaikan aturan baru selama tidak ada sanksi langsung yang dijatuhkan",
+      "D": "Bertanya kepada rekan kerja lewat obrolan santai tanpa memeriksa dokumen asli",
+      "E": "Meminta atasan merangkumkan aturan tersebut untuk Anda"
+    },
+    "correct": "B",
+    "explanation": "Kemauan mengembangkan kapasitas diri (*continuous learning*) secara mandiri, proaktif, and berbasis sumber valid."
+  },
+  {
+    "id": 101,
+    "category": "TKP",
+    "question": "Instansi Anda berpindah gedung operasional ke pinggiran kota yang membuat jarak tempuh rumah Anda menjadi dua kali lebih jauh. Anda akan ....",
+    "options": {
+      "A": "Sering datang terlambat dengan alasan jarak tempuh yang jauh",
+      "B": "Menyesuaikan waktu bangun and jadwal keberangkatan agar tetap tiba di kantor tepat waktu",
+      "C": "Mengajukan pengunduran diri saat itu juga tanpa pertimbangan",
+      "D": "Mengajak rekan kerja lain memprotes keputusan pemindahan gedung",
+      "E": "Bekerja dari rumah (WFH) secara sepihak tanpa izin resmi manajemen"
+    },
+    "correct": "B",
+    "explanation": "Menunjukkan indikator adaptabilitas yang tinggi and komitmen kedisiplinan kerja menghadapi perubahan kondisi eksternal."
+  },
+  {
+    "id": 102,
+    "category": "TKP",
+    "question": "Saat melayani antrean padat, seorang oknum mengaku kerabat dekat kepala dinas meminta didahulukan tanpa antre. Sikap Anda ....",
+    "options": {
+      "A": "Langsung melayaninya karena takut posisi jabatan Anda terancam",
+      "B": "Menolak dengan sopan, menjelaskan sistem nomor urut antrean yang berlaku adil untuk semua warga",
+      "C": "Memarahinya dengan berteriak agar seluruh antrean menyorakinya",
+      "D": "Menyerahkan urusan tersebut kepada rekan kerja di sebelah Anda",
+      "E": "Menyuruhnya langsung masuk ke ruang kerja kepala dinas saat itu juga"
+    },
+    "correct": "B",
+    "explanation": "Ketegasan menjaga integritas pelayanan publik yang adil, transparan, bebas intervensi, and antikorupsi/nepotisme."
+  },
+  {
+    "id": 103,
+    "category": "TKP",
+    "question": "Sistem komputerisasi internal divisi Anda mendadak mati total (*down*) padahal antrean layanan sedang mengular. Langkah taktis Anda ....",
+    "options": {
+      "A": "Menutup loket pelayanan and menyuruh seluruh warga pulang",
+      "B": "Meminta maaf atas kendala teknis, lalu berinisiatif mencatat data pemohon secara manual terlebih dahulu agar pelayanan tetap berjalan",
+      "C": "Ikut panik and menyalahkan tim teknisi IT di depan para pelapor",
+      "D": "Meninggalkan ruangan loket untuk mencari tempat minum kopi",
+      "E": "Menunggu sistem menyala kembali tanpa melakukan interaksi apa pun dengan warga"
+    },
+    "correct": "B",
+    "explanation": "Kemampuan orientasi pelayanan prima yang solutif and cekatan dalam mitigasi kondisi darurat (*contingency plan*)."
+  },
+  {
+    "id": 104,
+    "category": "TKP",
+    "question": "Rekan satu tim Anda dinilai lamban dalam merampungkan porsi tugasnya, sehingga mengancam ketepatan waktu proyek tim. Tindakan Anda ....",
+    "options": {
+      "A": "Mengeluarkannya dari tim tanpa pemberitahuan and mengerjakan semuanya sendiri",
+      "B": "Mengajaknya berdiskusi untuk mencari tahu kendalanya, and menawarkan bantuan atau pembagian ulang beban kerja jika diperlukan",
+      "C": "Melaporkan keburukannya kepada semua orang di luar divisi",
+      "D": "Membiarkan proyek terlambat agar dia disalahkan oleh manajemen",
+      "E": "Mengirimkan pesan sindiran berkali-kali di grup media sosial"
+    },
+    "correct": "B",
+    "explanation": "Aspek jejaring kerja and manajemen tim: mengedepankan kolaborasi suportif untuk mencapai kesuksesan kelompok."
+  },
+  {
+    "id": 105,
+    "category": "TKP",
+    "question": "Anda ditugaskan mewakili instansi menghadiri seminar nasional yang materinya kurang Anda minati. Sikap Anda selama acara adalah ....",
+    "options": {
+      "A": "Tidur di barisan kursi belakang sepanjang jalannya presentasi",
+      "B": "Tetap menyimak dengan saksama, mencatat poin penting, and berusaha menemukan relevansi materi bagi kemajuan instansi Anda",
+      "C": "Meninggalkan ruang seminar setelah mengisi daftar hadir untuk pergi berjalan-jalan",
+      "D": "Bermain *game* di ponsel dengan volume suara keras",
+      "E": "Mengkritik panitia penyelenggara karena memilih topik yang membosankan"
+    },
+    "correct": "B",
+    "explanation": "Profesionalisme tugas, penghargaan terhadap forum resmi, and kemauan menyerap informasi bermanfaat bagi organisasi."
+  },
+  {
+    "id": 106,
+    "category": "TKP",
+    "question": "Ketika Anda melakukan kesalahan presentasi data di depan para pemangku kepentingan (*stakeholders*), tindakan terbaik Anda adalah ....",
+    "options": {
+      "A": "Menyangkal kesalahan tersebut and melempar tanggung jawab ke staf magang",
+      "B": "Mengakui kesalahan secara jendral, meminta maaf, and langsung menyajikan data koreksi yang akurat saat itu juga",
+      "C": "Berpura-pura pingsan agar jalannya rapat dihentikan",
+      "D": "Menyalahkan perangkat proyektor yang dinilai merubah tampilan bagan data",
+      "E": "Meninggalkan ruangan rapat tanpa memberikan kejelasan lanjutan"
+    },
+    "correct": "B",
+    "explanation": "Integritas moral tinggi, berani bertanggung jawab atas kesalahan pribadi, and fokus pada solusi perbaikan instan."
+  },
+  {
+    "id": 107,
+    "category": "TKP",
+    "question": "Pimpinan kantor mengeluarkan kebijakan larangan penggunaan plastik sekali pakai di area kerja. Respons nyata Anda adalah ....",
+    "options": {
+      "A": "Protes karena menganggap aturan tersebut merepotkan aktivitas harian",
+      "B": "Membawa botol minum (*tumbler*) and wadah makan sendiri dari rumah serta mengurangi belanja kemasan plastik",
+      "C": "Tetap menggunakan plastik secara sembunyi-sembunyi di dalam laci",
+      "D": "Menyuruh petugas kebersihan membuang sampah plastik Anda di luar area kantor",
+      "E": "Apatis and menganggap aturan tersebut hanya sekadar pencitraan pimpinan"
+    },
+    "correct": "B",
+    "explanation": "Kepatuhan terhadap regulasi organisasi internal and kesiapan mendukung implementasi kebijakan lingkungan hidup."
+  },
+  {
+    "id": 108,
+    "category": "TKP",
+    "question": "Anda melihat potensi penyederhanaan alur birokrasi pelayanan di meja kerja Anda yang bisa memangkas waktu tunggu warga. Anda akan ....",
+    "options": {
+      "A": "Menyimpan ide tersebut untuk diri sendiri agar beban kerja Anda tidak bertambah",
+      "B": "Menyusun draf proposal usulan inovasi tersebut secara rapi and menyerahkannya kepada atasan untuk didiskusikan",
+      "C": "Langsung merubah alur tanpa meminta izin atau koordinasi dengan rekan lain",
+      "D": "Mengeluhkan lambatnya alur lama di media massa cetak",
+      "E": "Meminta bayaran tambahan dari masyarakat atas kecepatan alur baru tersebut"
+    },
+    "correct": "B",
+    "explanation": "Mencerminkan semangat kreativitas berprestasi, inisiatif inovasi perbaikan tata kelola, and kepatuhan hierarki operasional."
+  },
+  {
+    "id": 109,
+    "category": "TKP",
+    "question": "Bagaimana Anda mengelola hubungan kerja dengan rekan yang memiliki keyakinan agama and prinsip hidup yang bertolak belakang dengan Anda?",
+    "options": {
+      "A": "Menolak bekerja sama dalam tim yang sama dengan rekan tersebut",
+      "B": "Saling menghormati batasan privasi keyakinan, and fokus berkolaborasi secara profesional pada target pekerjaan kantor",
+      "C": "Berusaha mendebat and mengubah keyakinan rekan tersebut di setiap sela waktu istirahat",
+      "D": "Menyebarkan rumor negatif mengenai ajaran keyakinan rekan tersebut",
+      "E": "Mengabaikan keberadaannya and tidak mengajaknya berbicara sama sekali"
+    },
+    "correct": "B",
+    "explanation": "Kompetensi sosial kultural perekat bangsa: toleransi tinggi, inklusif, and mampu bekerja sama di tengah keberagaman dinamika."
+  },
+  {
+    "id": 110,
+    "category": "TKP",
+    "question": "Saat rapat koordinasi nasional, opini Anda ditolak mentah-mentah oleh forum. Sikap Anda menghadapi hal ini adalah ....",
+    "options": {
+      "A": "Langsung keluar dari ruangan rapat (walk out) karena merasa terhina",
+      "B": "Menerima keputusan forum dengan lapang dada dan mendukung keputusan akhir yang disepakati",
+      "C": "Tetap bersikeras mempertahankan opini Anda sepanjang jalannya rapat",
+      "D": "Memusuhi rekan rapat yang menolak opini Anda tersebut",
+      "E": "Tidak mau lagi mengeluarkan pendapat pada rapat-rapat berikutnya"
+    },
+    "correct": "B",
+    "explanation": "Mencerminkan kematangan emosi, kedewasaan bersikap, pengendalian diri, dan penghormatan terhadap mufakat demokrasi kelompok."
+  }
 ]
