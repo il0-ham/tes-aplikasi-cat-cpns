@@ -254,6 +254,21 @@
             padding: 10px;
             border-bottom: 1px solid #e5e7eb;
         }
+        
+        /* Tambahan CSS responsif untuk container gambar */
+        .soal-image-container {
+            text-align: center;
+            margin: 15px 0;
+        }
+        .soal-image-container img {
+            max-width: 100%;
+            max-height: 280px;
+            object-fit: contain;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 5px;
+            background-color: #fff;
+        }
     </style>
 </head>
 <body>
@@ -353,14 +368,31 @@
         const item = quizData[currentQuestionIndex];
         const chosen = userAnswers[currentQuestionIndex];
 
+        // Tambahan Logika Rendering Gambar Soal (Jika ada properti "image" di JSON)
+        let gambarHTML = "";
+        if (item.image) {
+            gambarHTML = `
+                <div class="soal-image-container">
+                    <img src="${item.image}" alt="Visual Soal ${currentQuestionIndex + 1}">
+                </div>
+            `;
+        }
+
         let optionsHTML = "";
         for(const [key, val] of Object.entries(item.options)) {
             const isSelected = chosen === key ? 'selected' : '';
             const isChecked = chosen === key ? 'checked' : '';
+            
+            // Logika pendukung jika isi pilihan ganda juga berupa link file gambar
+            let kontenOpsi = val;
+            if(typeof val === 'string' && (val.includes('/images/') || val.match(/\.(jpeg|jpg|gif|png)$/))) {
+                kontenOpsi = `<img src="${val}" style="max-height: 80px; object-fit: contain; vertical-align: middle;" />`;
+            }
+
             optionsHTML += `
                 <div class="option-item ${isSelected}" onclick="pickAnswer('${key}')">
                     <input type="radio" name="options-group" value="${key}" ${isChecked}>
-                    <span>${key}. ${val}</span>
+                    <span>${key}. ${kontenOpsi}</span>
                 </div>
             `;
         }
@@ -371,6 +403,7 @@
                 <span>Butir Soal ${currentQuestionIndex + 1} / ${quizData.length}</span>
             </div>
             <div class="question-text">${item.question}</div>
+            ${gambarHTML}
             <div class="options-list">${optionsHTML}</div>
             <div class="footer-action">
                 <button class="btn btn-gray" onclick="jumpToQuestion(${currentQuestionIndex - 1})" ${currentQuestionIndex === 0 ? 'disabled style="opacity:0.5;"' : ''}>Sebelumnya</button>
@@ -417,6 +450,37 @@
         finishExam();
     }
 
+    // =========================================================================
+    // FUNGSI BARU: MENGIRIM DATA HASIL SIMULASI KE GOOGLE SHEETS
+    // =========================================================================
+    function kirimKeGoogleSheets(skorFinal) {
+        const urlScript = "https://script.google.com/macros/s/AKfycbx8ETjjYW0GhQUI2RwbxNSY4js5ofFiHNfDBhwdzldQybV_Z44Ygd1iXLYkBULxSMwR/exec";
+        
+        const payload = {
+            nama: participantName,
+            twk: skorFinal.twk,
+            tiu: skorFinal.tiu,
+            tkp: skorFinal.tkp,
+            total: skorFinal.total
+        };
+
+        fetch(urlScript, {
+            method: "POST",
+            mode: "no-cors", 
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(payload)
+        })
+        .then(() => {
+            console.log("Data laporan skor berhasil terkirim ke Google Sheets.");
+        })
+        .catch((error) => {
+            console.error("Sistem gagal mengirimkan laporan log ke Google Sheets:", error);
+        });
+    }
+    // =========================================================================
+
     function finishExam() {
         clearInterval(examInterval);
         const root = document.getElementById('app-root');
@@ -443,6 +507,17 @@
         const tiuFinalScore = tiuCorrect * 5;
         const cumulativeScore = twkFinalScore + tiuFinalScore + tkpScore;
 
+        // Menyusun objek ringkasan skor akhir
+        const dataSkorAkhir = {
+            twk: twkFinalScore,
+            tiu: tiuFinalScore,
+            tkp: tkpScore,
+            total: cumulativeScore
+        };
+
+        // MEMICU FUNGSI KIRIM DATA KE GOOGLE SHEETS JEMBATAN ANDA
+        kirimKeGoogleSheets(dataSkorAkhir);
+
         let reviewHTML = "";
         quizData.forEach((item, idx) => {
             const ans = userAnswers[idx] || "Tidak Dijawab";
@@ -458,13 +533,30 @@
             let optionsDetail = "";
             for(const [k, v] of Object.entries(item.options)) {
                 let textWeight = k === item.correct ? 'style="font-weight:bold; color:var(--success-color);"' : '';
-                optionsDetail += `<div ${textWeight}>${k}. ${v}</div>`;
+                
+                let kontenOpsiDetail = v;
+                if(typeof v === 'string' && (v.includes('/images/') || v.match(/\.(jpeg|jpg|gif|png)$/))) {
+                    kontenOpsiDetail = `<img src="${v}" style="max-height: 60px; object-fit: contain; display:inline-block; vertical-align:middle;" />`;
+                }
+                
+                optionsDetail += `<div ${textWeight}>${k}. ${kontenOpsiDetail}</div>`;
+            }
+
+            // Integrasi gambar visual pada halaman review analisis lembar jawaban
+            let reviewGambarHTML = "";
+            if (item.image) {
+                reviewGambarHTML = `
+                    <div style="margin: 10px 0;">
+                        <img src="${item.image}" style="max-height: 150px; border: 1px solid #ddd; padding: 4px; border-radius:4px; background:#fff;">
+                    </div>
+                `;
             }
 
             reviewHTML += `
                 <div class="review-card ${cardClass}">
                     <h4 style="margin: 0 0 10px 0; color: var(--primary-color);">Soal Nomor ${idx + 1} [${item.category}] - Status: ${statusText}</h4>
                     <p style="font-size: 15px; margin-bottom: 10px;">${item.question}</p>
+                    ${reviewGambarHTML}
                     <div style="font-size: 14px; padding-left: 10px; margin-bottom: 10px; border-left: 2px solid #ddd;">
                         ${optionsDetail}
                     </div>
